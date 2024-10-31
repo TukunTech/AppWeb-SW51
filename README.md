@@ -1962,7 +1962,113 @@ En este sprint, el equipo se ha enfocado en el desarrollo del frontend de la apl
 
 ![Team Collaboration Insights during Sprint](./commits/commits1.JPG)
 
+#### 5.3. Validation Interviews.
+En esta sección, el equipo registra y explica las actividades realizadas durante las entrevistas de validación a lo largo del proyecto. Estas entrevistas son fundamentales para obtener retroalimentación directa de los usuarios pertenecientes a los segmentos objetivo, quienes interactúan con la Landing Page y las aplicaciones desarrolladas. Se han estructurado diversas secciones, que incluyen el Diseño de Entrevistas, el Registro de Entrevistas y las Evaluaciones según heurísticas, lo que permitirá un análisis exhaustivo de la experiencia del usuario. Además, se aplicará el formato de evaluación heurística indicado para el proyecto, asegurando que se identifiquen áreas de mejora y se validen las decisiones de diseño tomadas. A través de este proceso, buscamos garantizar que nuestras soluciones satisfacen las necesidades y expectativas de los usuarios finales.
 
+#### 5.3.1. Diseño de Entrevistas.
+**Preguntas para el Personal Médico al Cuidado de Pacientes Postoperatorios/UCI**
+_**Interacción Inicial**_
+¿Qué te llamó la atención en la primera vista del Landing Page?
+¿La navegación es clara desde el inicio? ¿Dónde encontraste más dificultades?
+
+_**Funcionalidades del Landing Page**_
+¿La información presentada en la Landing Page es relevante para tus necesidades? ¿Por qué sí o por qué no?
+¿Hay algún contenido en la Landing Page que consideres innecesario?
+¿Cómo te gustaría que se presentarán los recursos y herramientas disponibles en el Landing Page?
+
+_**Usabilidad de la Aplicación**_
+Al utilizar la aplicación, ¿qué tan fácil fue registrarte o iniciar sesión?
+¿Cómo calificarías el proceso de recuperación de contraseña en caso de olvidarla?
+¿Te parece intuitiva la estructura de navegación de la aplicación? Si no, ¿qué sugerencias tendrías?
+¿Hubo alguna sección de la aplicación que encontraste poco clara o confusa? ¿Cuál?
+
+_**Gestión de Pacientes**_
+¿El proceso para agregar un nuevo paciente es fácil de seguir? ¿Qué mejorarías?
+Al actualizar la información de un paciente, ¿te resulta fácil encontrar los campos que necesitas?
+¿Cómo evalúas la función de búsqueda para encontrar pacientes? ¿Es efectiva?
+¿Hay información crítica que no esté siendo capturada en la aplicación? Si es así, ¿cuál?
+
+_**Acceso a Información Crítica**_
+¿Puedes acceder rápidamente a la información clínica que consideras esencial para tus pacientes?
+¿Qué tipo de reportes o estadísticas te gustaría generar a partir de la información almacenada?
+¿Cómo evalúas la visibilidad de alertas o recordatorios dentro de la aplicación? ¿Son efectivos?
+
+_**Integración y Comunicación**_
+¿La aplicación facilita la comunicación con otros miembros del equipo de salud? ¿Cómo?
+¿Qué características de colaboración te gustaría ver implementadas en el futuro?
+¿Qué tan útil consideras que sería una función de chat interno dentro de la aplicación para coordinar cuidados?
+
+_**Feedback General**_
+¿Qué mejoras específicas sugerirías para el Landing Page?
+¿Qué funcionalidades adicionales crees que serían útiles en la aplicación para mejorar tu trabajo?
+¿Cómo crees que esta aplicación podría afectar positivamente la atención a tus pacientes postoperatorios?
+
+**Preguntas para el Personal Encargado de Adultos Mayores**
+_**Interacción Inicial**_
+¿Cuál fue tu primera impresión al ver el Landing Page? ¿Te resulta atractivo?
+¿La información en el Landing Page te parece relevante para el cuidado de los adultos mayores? ¿Por qué sí o por qué no?
+
+_**Funcionalidades del Landing Page**_
+¿Hay algún contenido específico que te gustaría ver en el Landing Page que no esté presente?
+¿Qué partes de la Landing Page consideras confusas o desorganizadas?
+
+_**Usabilidad de la Aplicación**_
+¿Qué tan fácil fue para ti navegar por la aplicación en general?
+¿Cómo calificarías la claridad de las instrucciones y mensajes en la aplicación? ¿Hubo algo que no entendiste?
+¿Te parece sencillo el proceso para registrarte o iniciar sesión en la aplicación?
+
+_**Monitoreo de Pacientes**_
+¿Cómo evalúas la funcionalidad de monitoreo de salud de los adultos mayores en la aplicación?
+¿Los informes de salud son fáciles de generar y entender? ¿Qué sugerencias tendrías para mejorarlos?
+¿Qué tipo de datos sobre los adultos mayores consideras imprescindibles que debería recopilar la aplicación?
+
+_**Acceso a Información Importante**_
+¿Puedes acceder fácilmente a la información sobre los cuidados y necesidades de los adultos mayores que gestionas?
+¿Cómo evalúas la claridad de las alertas y recordatorios en la aplicación? ¿Son útiles?
+¿Hay información que crees que debería ser más accesible dentro de la aplicación?
+
+_**Integración y Comunicación**_
+¿La aplicación facilita la comunicación con otros cuidadores o profesionales de la salud? Si es así, ¿cómo?
+¿Qué características de colaboración te gustaría ver implementadas en la aplicación para el cuidado de adultos mayores?
+¿Te sería útil una función de chat para comunicarte con otros miembros del equipo de cuidado? ¿Por qué?
+
+_**Feedback General**_
+¿Qué cambios sugeriría para mejorar la experiencia en el Landing Page?
+¿Qué funcionalidades adicionales crees que podrían ser valiosas para tu trabajo con adultos mayores?
+¿Cómo crees que esta herramienta podría impactar la calidad de la atención que ofreces a los adultos mayores?
+
+#### 5.3.2. Registro de Entrevistas
+Entrevistado 1 #:
+Nombre y Apellidos: Edu Rios
+Edad: 23
+Evidencias de reunión:
+![entrevista 4](./imgs%20entrevista/entrevista7.png)
+
+URL:
+[https://drive.google.com/file/d/1-dDtzyEffmUQBTyNSeJCfOwaN4jqDLRK/view?usp=sharing] 
+Tiempo: 18:19 min
+Resumen de Entrevista:
+El cuidador indicó que el Landing Page es visualmente atractivo y profesional, lo cual genera una buena primera impresión. Sin embargo, consideró que una organización más clara y simplificada de la información sería útil para identificar de inmediato las características principales de la aplicación. Aunque la información presentada parece en su mayoría relevante, sugirió incluir contenido adicional, como testimonios de otros cuidadores y una sección de preguntas frecuentes para brindar una idea más completa de las funcionalidades y beneficios específicos de la plataforma.
+
+En términos de usabilidad, el cuidador mencionó que la navegación en la aplicación es sencilla, aunque ciertos elementos podrían reorganizarse para una experiencia más intuitiva. El proceso de registro y de inicio de sesión es simple, aunque una guía breve sería útil para usuarios menos experimentados. Al usar la función de monitoreo, destacó que los informes son fáciles de generar, pero recomendó añadir gráficos o representaciones visuales que ayuden a interpretar mejor la información de salud del adulto mayor. Además, sugirió incluir datos adicionales como alertas de medicación o signos vitales críticos para mejorar el seguimiento.
+
+En general, el cuidador percibió que la aplicación tiene un buen potencial para facilitar su trabajo al centralizar la información y permitir un monitoreo constante de la salud del adulto mayor. Sugirió que el Landing Page se enfoque más en los recursos y funciones clave para los cuidadores, y recomendó una sección de alertas personalizables para recibir notificaciones relevantes en tiempo real. También indicó que una función de chat interno sería valiosa para coordinar el cuidado en equipo, y en conjunto, estas mejoras contribuirían a brindar una atención más integral y efectiva al adulto mayor.
+
+Entrevistado 2 #:
+Nombre y Apellidos: Flavio Nicolich 
+Edad: 67
+Evidencias de reunión:
+![entrevista 5](./imgs%20entrevista/entrevista2.png)
+
+URL:
+[https://drive.google.com/file/d/1-dDtzyEffmUQBTyNSeJCfOwaN4jqDLRK/view?usp=sharing]
+Tiempo: 35:10 min
+Resumen de Entrevista:
+El personal médico comentó que el diseño del Landing Page es visualmente atractivo y adecuado para su propósito, pero sugirieron mejorar la organización de la información para que el acceso a los recursos sea más intuitivo desde el inicio. La navegación es en su mayoría clara, aunque algunas secciones podrían estar mejor estructuradas para facilitar la búsqueda rápida de información esencial. A nivel de contenido, opinaron que la información es relevante para el cuidado postoperatorio y en UCI, aunque señalaron que algunos elementos podrían simplificarse o eliminarse para enfocarse exclusivamente en lo más útil para el entorno clínico.
+
+En cuanto al uso de la aplicación, la usabilidad fue considerada en términos generales adecuada, con un proceso de registro sencillo y un sistema de navegación intuitivo. No obstante, destacaron áreas específicas que podrían beneficiarse de ajustes, como una guía rápida para el manejo de datos clínicos y un sistema de recuperación de contraseña más accesible. También comentaron que el proceso para agregar y actualizar información de los pacientes es fácil de seguir, aunque una organización mejorada de los campos y datos críticos sería útil para acceder más eficientemente a la información relevante. La función de búsqueda es efectiva, pero sugirieron añadir filtros adicionales para optimizar los resultados.
+
+De manera general, el equipo médico consideró que la aplicación tiene un buen potencial para mejorar la atención de pacientes en UCI y postoperatorios. Recomendaron resaltar los recursos esenciales en el Landing Page y organizar mejor las alertas y recordatorios dentro de la aplicación para facilitar un seguimiento constante de los pacientes. Asimismo, sugirieron que el sistema incluya reportes detallados y funciones de colaboración, como un chat interno, para mejorar la coordinación del equipo de salud. En conclusión, consideraron que estas mejoras permitirían una atención más eficiente, una comunicación más efectiva y una experiencia de usuario más intuitiva, contribuyendo significativamente a la calidad de atención.
 
 ## Anexos
 [Landing Page:](https://tukuntech.github.io/DesarrolloOP-SW57/) 
