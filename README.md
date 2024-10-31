@@ -2042,7 +2042,7 @@ Entrevistado 1 #:
 Nombre y Apellidos: Edu Rios
 Edad: 23
 Evidencias de reunión:
-![entrevista 4](./imgs%20entrevista/entrevista7.png)
+![entrevista 4](./imgs%20entrevista/entrevista4.png)
 
 URL:
 [https://drive.google.com/file/d/1-dDtzyEffmUQBTyNSeJCfOwaN4jqDLRK/view?usp=sharing] 
