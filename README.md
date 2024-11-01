@@ -2360,6 +2360,115 @@ En cuanto al uso de la aplicación, la usabilidad fue considerada en términos g
 
 De manera general, el equipo médico consideró que la aplicación tiene un buen potencial para mejorar la atención de pacientes en UCI y postoperatorios. Recomendaron resaltar los recursos esenciales en el Landing Page y organizar mejor las alertas y recordatorios dentro de la aplicación para facilitar un seguimiento constante de los pacientes. Asimismo, sugirieron que el sistema incluya reportes detallados y funciones de colaboración, como un chat interno, para mejorar la coordinación del equipo de salud. En conclusión, consideraron que estas mejoras permitirían una atención más eficiente, una comunicación más efectiva y una experiencia de usuario más intuitiva, contribuyendo significativamente a la calidad de atención.
 
+#### 5.3.3. Evaluaciones según heurísticas.
+UX Heuristics & Principles Evaluation 
+Usability – Inclusive Design – Information Architecture
+
+CARRERA : Ingeniería de Software
+CURSO : Desarrollo de Aplicaciones Open Source
+SECCIÓN : Código de la sección
+PROFESORES : Todos
+AUDITOR : Ráfaga
+CLIENTE(S) : Nombre de las personas que participan en la sesión
+
+NOTA: Los contenidos de este formato (en color plomo) son referidos a un sitio web de ejemplo. Use este formato como referencia de la estructura que tiene que ser entregada y elimine el contenido en plomo. Coloque su contenido con color azul.
+
+SITE o APP A EVALUAR: 
+Tukun-Tech
+
+TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Inicio de sesión.
+2. Creación de cuenta..
+3. Visualización de signos vitales de pacientes postoperatorios.
+4. Visualización de signos vitales de pacientes UCI.
+5. Registro de médico.
+6. Registro de pacientes.
+7. Visualización de pacientes.
+8. Visualización de doctores.
+9. Agendar citas.
+10. Reagendar citas.
+11. Visualización de signos vitales de adultos mayores.
+12. Visualización de perfil de adultos mayores.
+13. Visualización y edición de contactos de emergencia.
+14. Visualización de recordatorios.
+15. Registro de solicitudes de soporte técnico.
+
+ESCALA DE SEVERIDAD: 
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+TABLA RESUMEN:
+
+| #  | Problema                                                          | Escala de severidad | Heurística/Principio violado            |
+|----|-------------------------------------------------------------------|---------------------|-----------------------------------------|
+| 1  | No existe un botón de cierre de sesión al ingresar a la aplicación. | 3                   | Usabilidad: Libertad y control del usuario |
+| 2  | No se ha integrado una confirmación de datos al crear a los pacientes. | 3               | Usabilidad: Consistencia y estándares   |
+| 3  | No se ha integrado una confirmación de datos al crear a los doctores. | 2               | Usabilidad: Consistencia y estándares   |
+| 4  | No se ha integrado una confirmación de datos en el módulo de soporte técnico. | 1         | Diseño Inclusivo: Proporciona experiencias comparables |
+
+
+DESCRIPCIÓN DE PROBLEMAS:
+
+PROBLEMA #1: No existe un botón de cierre de sesión al ingresar a la aplicación.
+
+Severidad: 3
+Heurística violada: Usabilidad - Libertad y control del usuario
+
+Problema:
+Al ingresar a la aplicación, no se cuenta con un botón que permita cerrar la sesión del usuario. Esto significa que, una vez dentro, el usuario queda obligado a permanecer en su cuenta sin la opción de salir de forma segura o cambiar de usuario, lo cual afecta su control sobre la sesión y podría impactar en la seguridad de su información. Esto genera un incremento en el esfuerzo requerido para gestionar el uso de la aplicación.
+
+
+
+Recomendación:
+
+La más práctica es agregar un botón de cierre de sesión visible en la barra de navegación o en un menú desplegable dentro de la aplicación. Esto permitiría a los usuarios cerrar su sesión en cualquier momento sin complicaciones, garantizando que tengan control sobre su acceso y puedan cambiar de usuario o salir cuando lo deseen.
+
+PROBLEMA #2: No se ha integrado una confirmación de datos al crear a los pacientes.
+Severidad: 3
+Heurística violada: Usability: Consistencia y estándares
+
+Problema:
+Al momento de crear un perfil de paciente, no se cuenta con una opción de confirmación de datos ingresados. Esto significa que el usuario no tiene la posibilidad de verificar y validar la información que acaba de introducir, lo cual incrementa el riesgo de errores y compromete la precisión de los datos. En caso de equivocarse, deberá corregir la información posteriormente, aumentando el esfuerzo y afectando la confiabilidad del sistema.
+
+
+
+Recomendación:
+La más práctica es que, al finalizar el registro de un paciente, se muestre una pantalla de confirmación con todos los datos ingresados. Esta ventana debería permitir al usuario revisar, confirmar o corregir la información antes de guardarla definitivamente. Así se reduce el riesgo de errores en los datos del paciente y se asegura la precisión de la información ingresada.
+
+PROBLEMA #3: No se ha integrado una confirmación de datos al crear a los doctores.
+Severidad: 2
+Heurística violada: Usability: Consistencia y estándares
+
+Problema:
+En el proceso de creación de perfiles de doctores, no se presenta una opción para confirmar los datos ingresados. Esto implica que el usuario debe introducir la información sin un segundo paso para verificarla, lo que puede llevar a errores no detectados en la información del personal médico. Si surge un error, el proceso de corrección incrementa el esfuerzo para el usuario, y afecta la consistencia de los datos en el sistema.
+
+
+Recomendación:
+La más práctica es implementar una pantalla de confirmación al final del registro de un doctor, mostrando todos los datos ingresados para su revisión. Esto permitiría al usuario validar y corregir cualquier información antes de guardar el registro de forma definitiva, evitando errores y manteniendo la consistencia en el sistema.
+
+PROBLEMA #4: No se ha integrado una confirmación de datos al technical support.
+Severidad: 1
+Heurística violada: Usabilidad - Libertad y control del usuario
+
+Problema:
+Al ingresar información en el módulo de soporte técnico, no se ofrece una opción para confirmar los datos ingresados. Esto implica que, si el usuario comete un error, deberá corregir la información más adelante. Aunque el impacto es menor que en otros módulos, la falta de esta funcionalidad incrementa el esfuerzo necesario para asegurar la exactitud de la información, afectando la experiencia de usuario de forma superficial.
+
+
+
+Recomendación:
+La más práctica es incluir una ventana emergente de confirmación al finalizar el ingreso de datos en el módulo de soporte técnico. De esta manera, el usuario podría revisar la información ingresada y corregir cualquier error antes de enviarla, minimizando problemas en la comunicación de soporte y mejorando la precisión sin afectar la experiencia de usuario.
+
+
+
+
 ## Anexos
 [Landing Page:](https://tukuntech.github.io/DesarrolloOP-SW57/) 
 
