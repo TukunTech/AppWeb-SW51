@@ -2037,24 +2037,23 @@ En Postman, se ha configurado una suite de pruebas para evaluar el correcto func
 También se han elaborado en lenguaje Gherkin para los Acceptance Tests, con sus respectivos archivos de Steps en el lenguaje de programación utilizado. Cada uno de estos archivos está vinculado a User Stories específicas, lo cual permite rastrear el progreso del desarrollo mediante el avance en los tests.
 Finalmente, incluimos una tabla con el repositorio de control de versiones y los commits relacionados con el testing en este Sprint. Esta tabla presenta para cada commit el conjunto de pruebas diseñadas, especificando el repositorio de cada archivo y las pruebas ejecutadas en Postman y Swagger.
 Se observa el test que se realizó mediante PostMan, en donde se prueba como ejemplo el llamar a todos los Doctores creados en nuestra BD mediante el WebService.
+![GET/patients](./PostMan/Doctor-all.png)
 
 
 Se observa el test que se realizó mediante PostMan, en donde se prueba como ejemplo el llamar al Doctor en específico (mediante DNI)  creado en nuestra BD mediante el WebService.
-
+![GET/patients](./PostMan/Doctor-dni.png)
 
 Se observa el test que se realizó mediante PostMan, en donde se prueba el crear un nuevo doctor mediante el WebService.
-
-
+![GET/patients](./PostMan/POST-doctor.png)
 
 Se observa el test que se realizó mediante PostMan, en donde se prueba como ejemplo el llamar a todos los Pacientes creados en nuestra BD mediante el WebService.
-
-
+![GET/patients](./PostMan/Patien-all.png)
 
 Se observa el test que se realizó mediante PostMan, en donde se prueba como ejemplo el llamar al Paciente en específico (mediante DNI)  creado en nuestra BD mediante el WebService.
-
+![GET/patients](./PostMan/Patient-dni.png)
 
 Se observa el test que se realizó mediante PostMan, en donde se prueba el crear un nuevo paciente mediante el WebService.
-
+![GET/patients](./PostMan/POST-patient.png)
 
 Gherkin:
 En esta seccion se presenta las us que incluyen los get y post de los bounded contexts Patients y Doctors.
@@ -2424,8 +2423,7 @@ Heurística violada: Usabilidad - Libertad y control del usuario
 
 Problema:
 Al ingresar a la aplicación, no se cuenta con un botón que permita cerrar la sesión del usuario. Esto significa que, una vez dentro, el usuario queda obligado a permanecer en su cuenta sin la opción de salir de forma segura o cambiar de usuario, lo cual afecta su control sobre la sesión y podría impactar en la seguridad de su información. Esto genera un incremento en el esfuerzo requerido para gestionar el uso de la aplicación.
-
-
+![Problema1](./heuristica/1.png)
 
 Recomendación:
 
@@ -2437,8 +2435,7 @@ Heurística violada: Usability: Consistencia y estándares
 
 Problema:
 Al momento de crear un perfil de paciente, no se cuenta con una opción de confirmación de datos ingresados. Esto significa que el usuario no tiene la posibilidad de verificar y validar la información que acaba de introducir, lo cual incrementa el riesgo de errores y compromete la precisión de los datos. En caso de equivocarse, deberá corregir la información posteriormente, aumentando el esfuerzo y afectando la confiabilidad del sistema.
-
-
+![Problema2](./heuristica/2.png)
 
 Recomendación:
 La más práctica es que, al finalizar el registro de un paciente, se muestre una pantalla de confirmación con todos los datos ingresados. Esta ventana debería permitir al usuario revisar, confirmar o corregir la información antes de guardarla definitivamente. Así se reduce el riesgo de errores en los datos del paciente y se asegura la precisión de la información ingresada.
@@ -2449,7 +2446,7 @@ Heurística violada: Usability: Consistencia y estándares
 
 Problema:
 En el proceso de creación de perfiles de doctores, no se presenta una opción para confirmar los datos ingresados. Esto implica que el usuario debe introducir la información sin un segundo paso para verificarla, lo que puede llevar a errores no detectados en la información del personal médico. Si surge un error, el proceso de corrección incrementa el esfuerzo para el usuario, y afecta la consistencia de los datos en el sistema.
-
+![Problema3](./heuristica/3.png)
 
 Recomendación:
 La más práctica es implementar una pantalla de confirmación al final del registro de un doctor, mostrando todos los datos ingresados para su revisión. Esto permitiría al usuario validar y corregir cualquier información antes de guardar el registro de forma definitiva, evitando errores y manteniendo la consistencia en el sistema.
@@ -2460,8 +2457,7 @@ Heurística violada: Usabilidad - Libertad y control del usuario
 
 Problema:
 Al ingresar información en el módulo de soporte técnico, no se ofrece una opción para confirmar los datos ingresados. Esto implica que, si el usuario comete un error, deberá corregir la información más adelante. Aunque el impacto es menor que en otros módulos, la falta de esta funcionalidad incrementa el esfuerzo necesario para asegurar la exactitud de la información, afectando la experiencia de usuario de forma superficial.
-
-
+![Problema4](./heuristica/4.png)
 
 Recomendación:
 La más práctica es incluir una ventana emergente de confirmación al finalizar el ingreso de datos en el módulo de soporte técnico. De esta manera, el usuario podría revisar la información ingresada y corregir cualquier error antes de enviarla, minimizando problemas en la comunicación de soporte y mejorando la precisión sin afectar la experiencia de usuario.
