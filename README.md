@@ -1960,6 +1960,259 @@ En este sprint, el enfoque ha estado completamente en el desarrollo del frontend
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 En este sprint, el equipo se ha enfocado en el desarrollo del frontend de la aplicación web. Todos los miembros han colaborado en la implementación de las principales vistas y funcionalidades visuales. A continuación, se presentan capturas de los analíticos de colaboración y los commits en GitHub, que reflejan el trabajo realizado por cada miembro en esta área específica del proyecto.
 
+#### 5.2.3.Sprint 3
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 3. Se comienza con una introducción que describe el enfoque del sprint y las metas principales, centrándose en el desarrollo de la primera versión del backend y la corrección de detalles en el frontend. A continuación, se presenta un cuadro resumen que organiza la información relevante discutida durante la reunión de planificación del sprint, siguiendo la estructura indicada para proporcionar claridad sobre las tareas y objetivos acordados.
+
+#### 5.2.3.1. Sprint Planning 3
+| **Sprint #**                     | 3                                                 |
+|----------------------------------|----------------------------------------------------|
+| **Sprint Planning Background**   |                                                    |
+| **Date**                         | 14/10/2024                                         |
+| **Time**                         | 03:00 PM                                           |
+| **Location**                     | Reunión virtual mediante llamada Discord           |
+| **Prepared By**                  | Adriana Palomares                                  |
+| **Attendees (to planning meeting)** | Rafael Bravo / Fabio Nicolich / Erick Maraza / Oscar Soto |
+| **Sprint 3 – 2 Review Summary**  | Desarrollo y despliegue del WebApplication.        |
+| **Sprint 3 – 2 Retrospective Summary** | Correcciones de errores en la documentación.   |
+| **Sprint Goal & User Stories**   |                                                    |
+| **Sprint 3 Goal**                | Our focus is on improving the platform to better engage visitors with relevant content on the landing page, making it easier for medical staff and caregivers to interact through a more intuitive interface, and providing a robust and efficient infrastructure for developers to manage and process patient data in real-time. We believe it delivers an enhanced user experience that fosters greater engagement, facilitates efficient access to patient information for medical staff and caregivers, and ensures that developers can manage data effectively and seamlessly. This will be confirmed when visitors interact more with the landing page, medical staff and caregivers can efficiently access and manage patient information, and developers can ensure that data is stored and processed smoothly. |
+| **Sprint 3 Velocity**            |                                                    |
+| **Sum of Story Points**          |                                                    |
+
+
+#### 5.2.3.2. Sprint Planning 3
+En este sprint, el equipo se enfocará en el desarrollo de la primera versión del backend de la aplicación, además de corregir detalles en el frontend. El objetivo principal es asegurar que los usuarios puedan interactuar de manera intuitiva y eficiente con las funcionalidades básicas del sistema, estableciendo una infraestructura sólida para el manejo y procesamiento de datos de pacientes en tiempo real. Este trabajo incluirá la implementación de elementos clave en el backend que soportan las funciones esenciales, así como la optimización de formularios, paneles de control y componentes visuales en el frontend para garantizar una experiencia fluida para el usuario final.
+
+
+
+
+#### 5.2.3.3. Development Evidence for Sprint Review.
+En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en el desarrollo de la primera versión del backend de la aplicación web y en la corrección de detalles en el frontend. El enfoque principal ha sido avanzar en la construcción de las funcionalidades esenciales del backend y optimizar las interfaces de usuario, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la gestión de datos de pacientes, la interacción del usuario y la navegación, lo que permitirá una experiencia más robusta para los usuarios.
+A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
+
+
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review.
+En esta sección, se explica y documenta el conjunto de pruebas diseñadas para medir el avance en el desarrollo del backend. Para garantizar la calidad y la correcta funcionalidad de los Web Services desarrollados en este Sprint, se han implementado pruebas automatizadas de Unit Tests, Integration Tests y Acceptance Tests. Estas pruebas se realizarán a través de herramientas como Postman y Swagger, lo que nos permitirá validar que cada endpoint cumple con los criterios de las User Stories especificadas.
+En Postman, se ha configurado una suite de pruebas para evaluar el correcto funcionamiento de cada endpoint, midiendo tanto el rendimiento como la precisión de las respuestas bajo diferentes escenarios. Además, se utiliza Swagger para documentar y ejecutar pruebas de los endpoints, asegurando que todas las rutas y parámetros funcionen de acuerdo con lo esperado. Los Unit Tests se centran en validar clases específicas y comportamientos clave del backend, mientras que los Integration Tests y Acceptance Tests verifican la interacción entre los diferentes módulos y la respuesta general del sistema bajo criterios de BDD (Desarrollo Guiado por Comportamiento).
+También se han elaborado en lenguaje Gherkin para los Acceptance Tests, con sus respectivos archivos de Steps en el lenguaje de programación utilizado. Cada uno de estos archivos está vinculado a User Stories específicas, lo cual permite rastrear el progreso del desarrollo mediante el avance en los tests.
+Finalmente, incluimos una tabla con el repositorio de control de versiones y los commits relacionados con el testing en este Sprint. Esta tabla presenta para cada commit el conjunto de pruebas diseñadas, especificando el repositorio de cada archivo y las pruebas ejecutadas en Postman y Swagger.
+Se observa el test que se realizó mediante PostMan, en donde se prueba como ejemplo el llamar a todos los Doctores creados en nuestra BD mediante el WebService.
+
+
+Se observa el test que se realizó mediante PostMan, en donde se prueba como ejemplo el llamar al Doctor en específico (mediante DNI)  creado en nuestra BD mediante el WebService.
+
+
+Se observa el test que se realizó mediante PostMan, en donde se prueba el crear un nuevo doctor mediante el WebService.
+
+
+
+Se observa el test que se realizó mediante PostMan, en donde se prueba como ejemplo el llamar a todos los Pacientes creados en nuestra BD mediante el WebService.
+
+
+
+Se observa el test que se realizó mediante PostMan, en donde se prueba como ejemplo el llamar al Paciente en específico (mediante DNI)  creado en nuestra BD mediante el WebService.
+
+
+Se observa el test que se realizó mediante PostMan, en donde se prueba el crear un nuevo paciente mediante el WebService.
+
+
+Gherkin:
+En esta seccion se presenta las us que incluyen los get y post de los bounded contexts Patients y Doctors.
+Patients:
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión del backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de doctores, pacientes y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos de pacientes, así como la gestión de la información de los doctores y la autenticación de usuarios.
+Además, se presentan screenshots de las principales vistas implementadas en el frontend que interactúan con estos endpoints, permitiendo una navegación más fluida y eficiente. Junto a esto, se incluye un enlace a un video que ilustra y explica la visualización y navegación logradas en este Sprint, mostrando cómo los usuarios pueden interactuar con las funcionalidades disponibles de manera intuitiva.
+Vista general de los endpoints generados via Swagger: Se observan los endopoints con sus respectivos títulos.
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Esta sección documenta los endpoints desarrollados durante el Sprint para la gestión de doctores y pacientes en la plataforma Tukun Tech. Se detallan las acciones implementadas (GET, POST, PUT) con ejemplos de llamadas y respuestas, así como enlaces a la documentación desplegada. Además, se incluyen capturas de pantalla que ilustran la interacción con los Web Services, y los enlaces al repositorio junto con los commits relevantes para este Sprint. Todo esto se basará en la documentación realizada mediante OpenAPI. 
+
+![OpenApi-SwaggerEditor](./API/openApi.JPG)
+
+A continuación se muestra mediante una tabla una lista de todos los endpoints implementados durante el Sprint 2, especificando las acciones (GET, POST, PUT) y un enlace a la documentación o a la URL local de cada uno.
+
+| Endpoint               | Acción                  | HTTP  | Enlace                                                                |
+|------------------------|-------------------------|-------|-----------------------------------------------------------------------|
+| `/doctors`             | Obtener todos los doctores | GET   | [https://tukun-tech1.free.beeceptor.com/api/doctors](https://tukun-tech1.free.beeceptor.com/api/doctors) |
+| `/doctors`             | Crear un nuevo doctor    | POST  | [https://tukun-tech1.free.beeceptor.com/api/doctors](https://tukun-tech1.free.beeceptor.com/api/doctors) |
+| `/doctors/{doctorsDni}`| Actualizar un doctor     | PUT   | [https://tukun-tech1.free.beeceptor.com/api/doctors/:doctorDni](https://tukun-tech1.free.beeceptor.com/api/doctors/:doctorDni) |
+| `/patients`            | Obtener todos los pacientes | GET   | [https://tukun-tech1.free.beeceptor.com/api/patients](https://tukun-tech1.free.beeceptor.com/api/patients) |
+| `/patients`            | Crear un nuevo paciente  | POST  | [https://tukun-tech1.free.beeceptor.com/api/patients](https://tukun-tech1.free.beeceptor.com/api/patients) |
+| `/patients/{patientDni}`| Actualizar un paciente   | PUT   | [https://tukun-tech1.free.beeceptor.com/api/patients/:patientDni](https://tukun-tech1.free.beeceptor.com/api/patients/:patientDni) |
+
+Sintaxis de llamada y acción:
+En este punto se describe cómo realizar las llamadas a cada endpoint, especificando los parámetros que se deben enviar, ejemplos de la solicitud y las posibles respuestas de la API la cual se encuentra desplegada en [Beeceptor](https://beeceptor.com/)
+
+En este sprint, el enfoque ha estado completamente en el desarrollo del frontend de la aplicación web. A continuación, se detallan los pasos necesarios para desplegar correctamente este producto digital a partir del repositorio de código fuente, incluyendo la configuración del entorno, la instalación de dependencias, y los comandos para realizar el despliegue satisfactorio de la aplicación web en el entorno de producción.
+### `/doctors`
+
+**GET**:  
+Este endpoint devuelve una lista de todos los doctores registrados en el sistema.
+
+**Sintaxis**:  
+`GET https://tukun-tech1.free.beeceptor.com/api/doctors`
+
+**Ejemplo**:
+```json
+[
+  {
+    "id": "123",
+    "name": "Erick",
+    "lastName": "Maraza",
+    "dni": "987654321",
+    "age": 40,
+    "cmpCode": "CMP12345",
+    "nationality": "Peruvian",
+    "specialization": "Cardiologist",
+    "contact": "+51 123456789"
+  }
+]
+```
+Cuadro GET/doctors obtenido gracias a la documentación mediante OpenApi:
+![GET/doctors](./API/getDoctor1.JPG)
+
+
+**POST**:  
+Este endpoint permite registrar un nuevo doctor en el sistema.
+
+**Sintaxis**:  
+`POST https://tukun-tech1.free.beeceptor.com/api/doctors`
+
+**Cuerpo de la solicitud**:
+
+```json
+{ 
+  "id": "124", 
+  "name": "Jane", 
+  "lastName": "Doe", 
+  "dni": "123456789", 
+  "age": 38, 
+  "cmpCode": "CMP67890", 
+  "nationality": "Peruvian", 
+  "specialization": "Pediatrician", 
+  "contact": "+51 987654321" 
+}
+```
+Cuadro POST/doctors obtenido gracias a la documentación mediante OpenApi:
+![POST/doctors](./API/postDoctor1.JPG)
+**PUT**:  
+Este endpoint actualiza la información de un doctor existente en el sistema utilizando su DNI.
+
+**Sintaxis**:  
+`PUT https://tukun-tech1.free.beeceptor.com/api/doctors/{doctorDni}`  
+**Content-Type**: `application/json`
+
+**Cuerpo de la solicitud**:
+
+```json
+{ 
+  "name": "John", 
+  "lastName": "Smith", 
+  "age": 45, 
+  "specialization": "Surgeon" 
+}
+```
+Cuadro PUT/doctors obtenido gracias a la documentación mediante OpenApi:
+![PUT/doctors](./API/putDoctor1.JPG)
+
+### `/patients`
+**GET**:  
+Este endpoint devuelve una lista de todos los pacientes registrados en el sistema.
+
+**Sintaxis**:  
+`GET https://tukun-tech1.free.beeceptor.com/api/patients`
+
+**Ejemplo**:
+
+```json
+[
+  {
+    "id": "456",
+    "name": "Alice",
+    "lastName": "Johnson",
+    "dni": "987654321",
+    "age": 30,
+    "bloodType": "O+",
+    "nationality": "Peruvian",
+    "noOfPolicies": "3",
+    "insurance": "Pacífico",
+    "bedNumber": "12A",
+    "allergies": "None"
+  }
+]
+```
+Cuadro GET/patients obtenido gracias a la documentación mediante OpenApi:
+![GET/patients](./API/getPatient1.JPG)
+
+**POST**:  
+Este endpoint permite registrar un nuevo paciente en el sistema.
+
+**Sintaxis**:  
+`POST https://tukun-tech1.free.beeceptor.com/api/patients`
+
+**Cuerpo de la solicitud**:
+
+```json
+{
+  "id": "789", 
+  "name": "Bob", 
+  "lastName": "Smith", 
+  "dni": "123456789", 
+  "age": 25, 
+  "bloodType": "A+", 
+  "nationality": "Peruvian", 
+  "noOfPolicies": "2", 
+  "insurance": "Rimac",
+  "bedNumber": "14B", 
+  "allergies": "Peanuts"
+}
+```
+Cuadro POST/patients obtenido gracias a la documentación mediante OpenApi:
+![POST/patients](./API/postPatient1.JPG)
+
+**PUT**:  
+Este endpoint actualiza la información de un paciente existente en el sistema utilizando su DNI.
+
+**Sintaxis**:  
+`PUT https://tukun-tech1.free.beeceptor.com/api/patients/{patientDni}`  
+**Content-Type**: `application/json`
+
+**Cuerpo de la solicitud**:
+
+```json
+{ 
+  "name": "Alice", 
+  "lastName": "Johnson", 
+  "age": 31, 
+  "bloodType": "O+"
+}
+```
+Cuadro PUT/patients obtenido gracias a la documentación mediante OpenApi:
+![PUT/patients](./API/putPatient1.JPG)
+
+Ejemplo de interacción con los endpoints desplegado [Beeceptor](https://beeceptor.com/)
+Acción Post/patient, se crea un nuevo paciente:
+![POST/patients](./API/postPatient.JPG)
+
+Acción GET, muestra todos los pacientes:
+![GET/patients](./API/getPatient.JPG)
+
+Acción Post/doctor, se crea un nuevo doctor:
+![POST/doctor](./API/postDoctor.JPG)
+
+Acción GET, muestra todos los doctores:
+![GET/doctor](./API/getDoctor.JPG)
+
+
+#### 5.2.3.7. Team Collaboration Insights during Sprint.
+En esta sección, el equipo detalla cómo se han desarrollado las actividades de implementación, destacando el uso de herramientas colaborativas como GitHub, Trello, Discord y WhatsApp para facilitar la comunicación y el seguimiento del progreso. GitHub ha sido fundamental para gestionar el código y documentar los commits realizados por los miembros del equipo, mientras que Trello ha permitido organizar las tareas y monitorear el avance de cada uno de los productos correspondientes al Sprint, como la Landing Page, las Aplicaciones Web y los Servicios Web. La comunicación en tiempo real se ha facilitado a través de Discord y WhatsApp, donde los miembros del equipo han podido resolver dudas y coordinar esfuerzos de manera efectiva. A continuación, se presentan capturas de pantalla que ilustran los analíticos de colaboración y los commits realizados en GitHub, reflejando la participación activa de todos los integrantes del equipo en la implementación del proyecto.
+
+
+
 ![Team Collaboration Insights during Sprint](./commits/commits1.JPG)
 
 #### 5.3. Validation Interviews.
