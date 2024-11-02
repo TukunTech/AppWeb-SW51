@@ -90,17 +90,18 @@
 |          | 25/09/2024  | Maraza Pedemonte, Erick             | Agregar descripción Mockup                                                    |
 |          | 26/09/2024  | Maraza Pedemonte, Erick             | Corrección video Prototyping de Web Application                               |
 |          | 26/09/2024  | Maraza Pedemonte, Erick             | Corrección  Software Architecture Components Diagrams                         |
-| TB2      | 22/09/2024  | Palomares Chavez, Adriana Giovanna  |               							 |
-|          | 24/09/2024  | Palomares Chavez, Adriana Giovanna  |                                            			 |
-|          | 25/09/2024  | Palomares Chavez, Adriana Giovanna  |                                         			 |
-|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Entrevista a los segmentos                                       		|
-|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Realización del análisis de entrevistas                                        |
-|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Participación en video About the product                                       |
-|          | 24/09/2024  | Bravo Gavilano, Jorge Rafael        |                           				 |
-|          | 25/09/2024  | Bravo Gavilano, Jorge Rafael        |     							|
-|          | 25/09/2024  | Bravo Gavilano, Jorge Rafael        |                              				 |
-|          | 25/09/2024  | Maraza Pedemonte, Erick             |                                                   |
-|          | 25/09/2024  | Maraza Pedemonte, Erick             |                                                    |
+| TB2      | 30/10/2024  | Palomares Chavez, Adriana Giovanna  | Creación de las 42 technical stories           			       |
+|          | 01/10/2024  | Palomares Chavez, Adriana Giovanna  | Participación en video about the team.                                        |
+|          | 31/10/2024  | Nicolich Alvis, Fabio Maurizio      | Entrevista a los segmentos                                       	       |
+|          | 31/10/2024  | Nicolich Alvis, Fabio Maurizio      | Realización del análisis de entrevistas                                       |
+|          | 01/11/2024  | Nicolich Alvis, Fabio Maurizio      | Participación en video About the product                                      |
+|          | 29/10/2024  | Bravo Gavilano, Jorge Rafael        | Agregación de los Technical - Stories en el Sprint Backlog                    |
+|          | 30/10/2024  | Bravo Gavilano, Jorge Rafael        | Identificar los problemas y realizar heuristicas    			       |
+|          | 31/10/2024  | Bravo Gavilano, Jorge Rafael        | Participación en video About the team                             	       |
+|          | 31/10/2024  | Maraza Pedemonte, Erick             | Sprint Planning 3                                                             |
+|          | 31/10/2024  | Maraza Pedemonte, Erick             | User Stories                                                                  |
+|          | 31/10/2024  | Soto Zorrilla, Oscar Eduardo        | Desarrollo y Análisis de Heurística                                           |
+|          | 01/11/2024  | Soto Zorrilla, Oscar Eduardo        | Participación en video About the team                                         |
 
 
 ---
