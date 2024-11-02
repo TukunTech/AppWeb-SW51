@@ -2245,6 +2245,16 @@ Acción Post/doctor, se crea un nuevo doctor:
 Acción GET, muestra todos los doctores:
 ![GET/doctor](./API/getDoctor.JPG)
 
+Gherkin:
+En esta seccion se presenta las us que incluyen los get y post de los bounded contexts Patients y Doctors.
+Patients:
+![Gherkin-1](./img-gherkin/gherkin1.jpg)
+![Gherkin-2](./img-gherkin/gherkin2.jpg)
+![Gherkin-3](./img-gherkin/gherkin3.jpg)
+Doctors:
+![Gherkin-4](./img-gherkin/gherkin4.jpg)
+![Gherkin-5](./img-gherkin/gherkin5.jpg)
+
 
 #### 5.2.3.7. Team Collaboration Insights during Sprint.
 En esta sección, el equipo detalla cómo se han desarrollado las actividades de implementación, destacando el uso de herramientas colaborativas como GitHub, Trello, Discord y WhatsApp para facilitar la comunicación y el seguimiento del progreso. GitHub ha sido fundamental para gestionar el código y documentar los commits realizados por los miembros del equipo, mientras que Trello ha permitido organizar las tareas y monitorear el avance de cada uno de los productos correspondientes al Sprint, como la Landing Page, las Aplicaciones Web y los Servicios Web. La comunicación en tiempo real se ha facilitado a través de Discord y WhatsApp, donde los miembros del equipo han podido resolver dudas y coordinar esfuerzos de manera efectiva. A continuación, se presentan capturas de pantalla que ilustran los analíticos de colaboración y los commits realizados en GitHub, reflejando la participación activa de todos los integrantes del equipo en la implementación del proyecto.
