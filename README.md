@@ -89,7 +89,19 @@
 |          | 25/09/2024  | Maraza Pedemonte, Erick             | Corrección user personas                                                      |
 |          | 25/09/2024  | Maraza Pedemonte, Erick             | Agregar descripción Mockup                                                    |
 |          | 26/09/2024  | Maraza Pedemonte, Erick             | Corrección video Prototyping de Web Application                               |
-|          | 26/09/2024  | Maraza Ped
+|          | 26/09/2024  | Maraza Pedemonte, Erick             | Corrección  Software Architecture Components Diagrams                         |
+| TB2      | 22/09/2024  | Palomares Chavez, Adriana Giovanna  |               							 |
+|          | 24/09/2024  | Palomares Chavez, Adriana Giovanna  |                                            			 |
+|          | 25/09/2024  | Palomares Chavez, Adriana Giovanna  |                                         			 |
+|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Entrevista a los segmentos                                       		|
+|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Realización del análisis de entrevistas                                        |
+|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Participación en video About the product                                       |
+|          | 24/09/2024  | Bravo Gavilano, Jorge Rafael        |                           				 |
+|          | 25/09/2024  | Bravo Gavilano, Jorge Rafael        |     							|
+|          | 25/09/2024  | Bravo Gavilano, Jorge Rafael        |                              				 |
+|          | 25/09/2024  | Maraza Pedemonte, Erick             |                                                   |
+|          | 25/09/2024  | Maraza Pedemonte, Erick             |                                                    |
+
 
 ---
 
