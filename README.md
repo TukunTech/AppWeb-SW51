@@ -2930,7 +2930,7 @@ UX Heuristics & Principles Evaluation
 Usability – Inclusive Design – Information Architecture
 
 CARRERA : Ingeniería de Software
-CURSO : Desarrollo de Aplicaciones Open Source
+CURSO : Aplicaciones Web
 SECCIÓN : Código de la sección
 PROFESORES : Todos
 AUDITOR : Ráfaga
