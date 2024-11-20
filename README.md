@@ -575,10 +575,10 @@ Aunque los médicos valoran la digitalización y una buena organización, enfren
 ## 2.3. Needfinding.
 ### 2.3.1. User Persona.
 **Segmento 1**: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
-![User persona 1](./img-user-personas/userpersona2.png)
+![User persona 1](./img-user-personas/User%20persona%201.png)
 
 **Segmento 2**: Personal médico y pacientes postoperatorios UCI de clínicas privadas 
-![User persona 2](./img-user-personas/userpersona1.png)
+![User persona 2](./img-user-personas/User%20persona%202.png)
 
 ### 2.3.2 User Task Matrix
 **Segmento 1**
