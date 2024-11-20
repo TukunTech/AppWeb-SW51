@@ -2624,70 +2624,71 @@ En este sprint, el equipo se enfocará en la implementación de los servicios de
 ### 5.2.4.3. Development Evidence for Sprint Review
 En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, enfocados en la incorporación de los servicios de autorización y autenticación, así como en la corrección de errores identificados en el backend. El enfoque principal ha sido fortalecer la seguridad y confiabilidad del sistema, estableciendo una estructura que asegura que solo los usuarios autorizados tengan acceso a las funcionalidades críticas. Además, se han realizado ajustes en la lógica del backend para resolver problemas previos, lo que contribuye a una base más sólida y preparada para futuras implementaciones. Este trabajo permitirá una experiencia de usuario más segura y estable, alineada con los objetivos planteados para este ciclo.
 A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, ofreciendo una visión clara del progreso técnico alcanzado durante este sprint.
-| Repository                              | Branch | Commit ID | Commit Message                                                          | Commit Message Body | Committed On   |
-|-----------------------------------------|--------|-----------|--------------------------------------------------------------------------|---------------------|----------------|
-| oscaredu1226/tukun-tech-platform-open-source | main   | 1b3dfcf   | fix(api): correct route naming conventions for medic endpoint            | empty               | 13/11/2024     |
-| oscaredu1226/tukun-tech-platform-open-source | main   | 9207f5c   | fix(api): correct route naming conventions for appointment endpoint      | empty               | 13/11/2024     |
-| Relycloud/tukun-tech-platform-open-source | main   | 935437c   | fix(api): correct route naming conventions for clinical history endpoint | empty               | 13/11/2024     |
-| AdriPCH/tukun-tech-platform-open-source | main   | 2032b58   | feat: update bed and patient routes                                      | empty               | 13/11/2024     |
-| Rafooo6/tukun-tech-platform-open-source | main   | f82b47b   | fix(pending-medicine): resolve incorrect handling of pendingMedicineId in DeleteMapping endpoint | empty | 13/11/2024     |
-| Rafooo6/tukun-tech-platform-open-source | main   | 18b56f3f  | fix(pending-medicine): remove unused id parameter from getAllCriticalAlerts endpoint | empty | 13/11/2024     |
-| Rafooo6/tukun-tech-platform-open-source | main   | a386f7b   | fix(critical-alerts): remove unused id parameter from getAllCriticalAlerts endpoint | empty | 13/11/2024     |
-| Rafooo6/tukun-tech-platform-open-source | main   | 855016e   | fix(technical-support): update endpoint paths.                           | empty               | 13/11/2024     |
-| oscaredu1226/tukun-tech-platform-open-source | main   | 72185a7   | feat: add Dockerfile to build and run the application.                   | empty               | 16/11/2024     |
-| oscaredu1226/tukun-tech-platform-open-source | main   | 4e6ece6   | chore: update application.properties for TukunTech platform.             | empty               | 16/11/2024     |
-| oscaredu1226/tukun-tech-platform-open-source | main   | 9ce6ddd   | chore: update git configuration.                                         | empty               | 16/11/2024     |
-| oscaredu1226/tukun-tech-platform-open-source | main   | bc32e50   | fix: resolve errors in ClinicalHistoryController.                        | empty               | 16/11/2024     |
-| AdriPCH/tukun-angular                  | main   | 59aae65   | feat: update and add data                                                | empty               | 16/11/2024     |
-| AdriPCH/tukun-angular                  | main   | cce67e8   | feat: update                                                             | empty               | 16/11/2024     |
-| AdriPCH/tukun-angular                  | main   | e7dc4830   | feat: add services                                                       | empty               | 16/11/2024     |
-| AdriPCH/tukun-angular                  | main   | 58b7fd1   | feat: update patient registration                                        | empty               | 16/11/2024     |
-| AdriPCH/tukun-angular                  | main   | ab8e5f1   | feat: update patients                                                    | empty               | 16/11/2024     |
-| AdriPCH/tukun-angular                  | main   | 2e1c33f   | feat: update                                                             | empty               | 16/11/2024     |
-| AdriPCH/tukun-angular                  | main   | 840d5f8   | feat: add services                                                       | empty               | 16/11/2024     |
-| oscaredu1226/tukun-angular             | main   | 74c4dda   | feat: update utility service to optimize performance and add validation  | empty               | 16/11/2024     |
-| oscaredu1226/tukun-angular             | main   | 81c1ca6   | feat: update Doctor entity with new fields and improvements              | empty               | 16/11/2024     |
-| oscaredu1226/tukun-angular             | main   | 40bdd04   | feat: add specialization as a new feature to the Doctor entity           | empty               | 16/11/2024     |
-| oscaredu1226/tukun-angular             | main   | de24a00   | refactor: update Doctor API service with enhanced logic and new methods  | empty               | 16/11/2024     |
-| oscaredu1226/tukun-angular             | main   | 3fc8da0   | refactor: update Doctor and Registration components with enhanced functionality and UI improvements | empty | 16/11/2024     |
-| AdriPCH/tukun-angular                  | main   | d1b1ef4   | feat(bed): add services                                                 | empty               | 17/11/2024     |
-| AdriPCH/tukun-angular                  | main   | e921e38   | feat(bed): add model                                                    | empty               | 17/11/2024     |
-| AdriPCH/tukun-angular                  | main   | 6111bd1   | feat: update translate                                                  | empty               | 17/11/2024     |
-| AdriPCH/tukun-angular                  | main   | eb22029   | feat: update icu patient component                                      | empty               | 17/11/2024     |
-| Rafooo6/tukun-angular                  | main   | 9df384e   | feat(technical-support): add styles for technical support component     | empty               | 17/11/2024     |
-| Rafooo6/tukun-angular                  | main   | 19a7053   | feat(technical-support): add HTML structure for technical support component | empty            | 17/11/2024     |
-| Rafooo6/tukun-angular                  | main   | 9249ec9   | feat(technical-support): implement logic for technical support component | empty            | 17/11/2024     |
-| Rafooo6/tukun-angular                  | main   | 8b5936a   | test(technical-support): add unit tests for technical support service   | empty               | 17/11/2024     |
-| Rafooo6/tukun-angular                  | main   | 5ea3c18   | feat(technical-support): create service for handling technical support API integration | empty       | 17/11/2024     |
-| Rafooo6/tukun-angular                  | main   | c9c7a46   | test(technical-support): add unit tests for technical support model     | empty               | 17/11/2024     |
-| Rafooo6/tukun-angular                  | main   | fe123b5   | feat(technical-support): define model for technical support             | empty               | 17/11/2024     |
-| Nicolini03/tukun-tech-platform-open-source | main   | 60d8f2b   | fix(emergency-numbers): correct route naming conventions for emergency numbers endpoints | empty | 16/11/2024     |
-| Nicolini03/tukun-tech-platform-open-source | main   | 5d6177b   | feat: update aggregate and controller of emergencyNumbers               | empty               | 18/11/2024     |
-| Nicolini03/tukun-tech-platform-open-source | main   | 0df0b3f   | feat: delete contactName aggregate                                      | empty               | 18/11/2024     |
-| Ericksnpaii/tukun-angular              | main   | adb1a23   | feat: add allergy in util service                                       | empty               | 18/11/2024     |
-| Ericksnpaii/tukun-angular              | main   | ed1041d   | feat: elder vital signs component                                       | empty               | 18/11/2024     |
-| Ericksnpaii/tukun-angular              | main   | 76a9271   | feat: i18n configuration                                                | empty               | 18/11/2024     |
-| Ericksnpaii/tukun-angular              | main   | 895ed8a   | feat(elder-vital-signs): add component for displaying elder vital signs | empty               | 18/11/2024     |
-| Ericksnpaii/tukun-angular              | main   | b5e3fab   | feat(elderbed): add service for fetching elder bed data                 | empty               | 18/11/2024     |
-| Ericksnpaii/tukun-angular              | main   | f3712ec   | feat(medicalinsurance): add model for handling medical insurance data   | empty               | 18/11/2024     |
-| Ericksnpaii/tukun-angular              | main   | 5753871   | feat(elder): add elder model for representing elder data                | empty               | 18/11/2024     |
-| Ericksnpaii/tukun-angular              | main   | 387b398   | feat(elder-api): implement API service for elder operations             | empty               | 18/11/2024     |
-| Ericksnpaii/tukun-angular              | main   | 21ad9f0   | feat(allergy): add model for allergy data handling                      | empty               | 18/11/2024     |
-| Nicolini03/tukun-angular               | main   | cc946d1   | feat(emergency-numbers): add emergency-numbers.component.css for styles | empty               | 19/11/2024     |
-| Nicolini03/tukun-angular               | main   | c444b0d   | feat(emergency-numbers): add emergency numbers details card with conditional rendering | empty | 19/11/2024     |
-| Nicolini03/tukun-angular               | main   | 0aa3076   | feat(emergency-numbers): add unit tests for emergency-numbers.component | empty               | 19/11/2024     |
-| Nicolini03/tukun-angular               | main   | b16d7cb   | feat(emergency-numbers): implement functionality for emergency-numbers.component | empty         | 19/11/2024     |
-| Nicolini03/tukun-angular               | main   | ee78bc2   | i18n(en): update English translations for emergency numbers             | empty               | 19/11/2024     |
-| Nicolini03/tukun-angular               | main   | 9a8b02d   | i18n(es): update Spanish translations for emergency numbers             | empty               | 19/11/2024     |
-| RelyCloud/tukun-angular                | main   | 6e241ae   | feat(clinical-history): add clinical-history.component.css for styles   | empty               | 19/11/2024     |
-| RelyCloud/tukun-angular                | main   | 75b40c9   | feat(clinical-history): implement clinical history component with patient data fetching | empty | 19/11/2024     |
-| RelyCloud/tukun-angular                | main   | ec5763f   | feat(clinical-history): add HistoryClinic class with associated patient data types | empty | 19/11/2024     |
-| RelyCloud/tukun-angular                | main   | ff5ccaf   | feat(clinical-history): implement PatientApiService for CRUD operations | empty               | 19/11/2024     |
-| RelyCloud/tukun-angular                | main   | dd92484   | feat(patients): add View History button with dynamic routing for patient details | empty         | 19/11/2024     |
-| RelyCloud/tukun-angular                | main   | c0a8960   | feat(patients): add RouterLink to patients component imports for navigation support | empty     | 19/11/2024     |
-| RelyCloud/tukun-angular                | main   | 999a1d7   | feat(router): add history/:id route for clinical history component       | empty               | 19/11/2024     |
-| Nicolini03/tukun-angular | main   | 80520ec   | feat(emergency-numbers): update emergency-numbers.component.css for styles | empty               | 19/11/2024     |
-| Nicolini03/tukun-angular | main   | e1b8016   | feat(emergency-numbers): update emergency numbers details card with conditional rendering | empty | 19/11/2024     |
+| Repository                          | Branch | Commit ID | Commit Message                                                          | Commit Message Body | Committed On   |
+|-------------------------------------|--------|-----------|--------------------------------------------------------------------------|---------------------|----------------|
+| oscaredu1226/tukun-tech-platform    | main   | 1b3dfcf   | fix(api): correct route naming conventions for medic endpoint            | empty               | 13/11/2024     |
+| oscaredu1226/tukun-tech-platform    | main   | 9207f5c   | fix(api): correct route naming conventions for appointment endpoint      | empty               | 13/11/2024     |
+| Relycloud/tukun-tech-platform       | main   | 935437c   | fix(api): correct route naming conventions for clinical history endpoint | empty               | 13/11/2024     |
+| AdriPCH/tukun-tech-platform         | main   | 2032b58   | feat: update bed and patient routes                                      | empty               | 13/11/2024     |
+| Rafooo6/tukun-tech-platform         | main   | f82b47b   | fix(pending-medicine): resolve incorrect handling of pendingMedicineId in DeleteMapping endpoint | empty | 13/11/2024     |
+| Rafooo6/tukun-tech-platform         | main   | 18b56f3f  | fix(pending-medicine): remove unused id parameter from getAllCriticalAlerts endpoint | empty | 13/11/2024     |
+| Rafooo6/tukun-tech-platform         | main   | a386f7b   | fix(critical-alerts): remove unused id parameter from getAllCriticalAlerts endpoint | empty | 13/11/2024     |
+| Rafooo6/tukun-tech-platform         | main   | 855016e   | fix(technical-support): update endpoint paths.                           | empty               | 13/11/2024     |
+| oscaredu1226/tukun-tech-platform    | main   | 72185a7   | feat: add Dockerfile to build and run the application.                   | empty               | 16/11/2024     |
+| oscaredu1226/tukun-tech-platform    | main   | 4e6ece6   | chore: update application.properties for TukunTech platform.             | empty               | 16/11/2024     |
+| oscaredu1226/tukun-tech-platform    | main   | 9ce6ddd   | chore: update git configuration.                                         | empty               | 16/11/2024     |
+| oscaredu1226/tukun-tech-platform    | main   | bc32e50   | fix: resolve errors in ClinicalHistoryController.                        | empty               | 16/11/2024     |
+| AdriPCH/tukun-web                   | main   | 59aae65   | feat: update and add data                                                | empty               | 16/11/2024     |
+| AdriPCH/tukun-web                   | main   | cce67e8   | feat: update                                                             | empty               | 16/11/2024     |
+| AdriPCH/tukun-web                   | main   | e7dc4830   | feat: add services                                                       | empty               | 16/11/2024     |
+| AdriPCH/tukun-web                   | main   | 58b7fd1   | feat: update patient registration                                        | empty               | 16/11/2024     |
+| AdriPCH/tukun-web                   | main   | ab8e5f1   | feat: update patients                                                    | empty               | 16/11/2024     |
+| AdriPCH/tukun-web                   | main   | 2e1c33f   | feat: update                                                             | empty               | 16/11/2024     |
+| AdriPCH/tukun-web                   | main   | 840d5f8   | feat: add services                                                       | empty               | 16/11/2024     |
+| oscaredu1226/tukun-web              | main   | 74c4dda   | feat: update utility service to optimize performance and add validation  | empty               | 16/11/2024     |
+| oscaredu1226/tukun-web              | main   | 81c1ca6   | feat: update Doctor entity with new fields and improvements              | empty               | 16/11/2024     |
+| oscaredu1226/tukun-web              | main   | 40bdd04   | feat: add specialization as a new feature to the Doctor entity           | empty               | 16/11/2024     |
+| oscaredu1226/tukun-web              | main   | de24a00   | refactor: update Doctor API service with enhanced logic and new methods  | empty               | 16/11/2024     |
+| oscaredu1226/tukun-web              | main   | 3fc8da0   | refactor: update Doctor and Registration components with enhanced functionality and UI improvements | empty | 16/11/2024     |
+| AdriPCH/tukun-web                   | main   | d1b1ef4   | feat(bed): add services                                                  | empty               | 17/11/2024     |
+| AdriPCH/tukun-web                   | main   | e921e38   | feat(bed): add model                                                     | empty               | 17/11/2024     |
+| AdriPCH/tukun-web                   | main   | 6111bd1   | feat: update translate                                                   | empty               | 17/11/2024     |
+| AdriPCH/tukun-web                   | main   | eb22029   | feat: update icu patient component                                       | empty               | 17/11/2024     |
+| Rafooo6/tukun-web                   | main   | 9df384e   | feat(technical-support): add styles for technical support component      | empty               | 17/11/2024     |
+| Rafooo6/tukun-web                   | main   | 19a7053   | feat(technical-support): add HTML structure for technical support component | empty            | 17/11/2024     |
+| Rafooo6/tukun-web                   | main   | 9249ec9   | feat(technical-support): implement logic for technical support component | empty            | 17/11/2024     |
+| Rafooo6/tukun-web                   | main   | 8b5936a   | test(technical-support): add unit tests for technical support service    | empty               | 17/11/2024     |
+| Rafooo6/tukun-web                   | main   | 5ea3c18   | feat(technical-support): create service for handling technical support API integration | empty       | 17/11/2024     |
+| Rafooo6/tukun-web                   | main   | c9c7a46   | test(technical-support): add unit tests for technical support model      | empty               | 17/11/2024     |
+| Rafooo6/tukun-web                   | main   | fe123b5   | feat(technical-support): define model for technical support              | empty               | 17/11/2024     |
+| Nicolini03/tukun-tech-platform      | main   | 60d8f2b   | fix(emergency-numbers): correct route naming conventions for emergency numbers endpoints | empty | 16/11/2024     |
+| Nicolini03/tukun-tech-platform      | main   | 5d6177b   | feat: update aggregate and controller of emergencyNumbers                | empty               | 18/11/2024     |
+| Nicolini03/tukun-tech-platform      | main   | 0df0b3f   | feat: delete contactName aggregate                                       | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-web               | main   | adb1a23   | feat: add allergy in util service                                        | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-web               | main   | ed1041d   | feat: elder vital signs component                                        | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-web               | main   | 76a9271   | feat: i18n configuration                                                 | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-web               | main   | 895ed8a   | feat(elder-vital-signs): add component for displaying elder vital signs  | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-web               | main   | b5e3fab   | feat(elderbed): add service for fetching elder bed data                  | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-web               | main   | f3712ec   | feat(medicalinsurance): add model for handling medical insurance data    | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-web               | main   | 5753871   | feat(elder): add elder model for representing elder data                 | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-web               | main   | 387b398   | feat(elder-api): implement API service for elder operations              | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-web               | main   | 21ad9f0   | feat(allergy): add model for allergy data handling                       | empty               | 18/11/2024     |
+| Nicolini03/tukun-web                | main   | cc946d1   | feat(emergency-numbers): add emergency-numbers.component.css for styles  | empty               | 19/11/2024     |
+| Nicolini03/tukun-web                | main   | c444b0d   | feat(emergency-numbers): add emergency numbers details card with conditional rendering | empty | 19/11/2024     |
+| Nicolini03/tukun-web                | main   | 0aa3076   | feat(emergency-numbers): add unit tests for emergency-numbers.component  | empty               | 19/11/2024     |
+| Nicolini03/tukun-web                | main   | b16d7cb   | feat(emergency-numbers): implement functionality for emergency-numbers.component | empty         | 19/11/2024     |
+| Nicolini03/tukun-web                | main   | ee78bc2   | i18n(en): update English translations for emergency numbers              | empty               | 19/11/2024     |
+| Nicolini03/tukun-web                | main   | 9a8b02d   | i18n(es): update Spanish translations for emergency numbers              | empty               | 19/11/2024     |
+| RelyCloud/tukun-web                 | main   | 6e241ae   | feat(clinical-history): add clinical-history.component.css for styles    | empty               | 19/11/2024     |
+| RelyCloud/tukun-web                 | main   | 75b40c9   | feat(clinical-history): implement clinical history component with patient data fetching | empty | 19/11/2024     |
+| RelyCloud/tukun-web                 | main   | ec5763f   | feat(clinical-history): add HistoryClinic class with associated patient data types | empty | 19/11/2024     |
+| RelyCloud/tukun-web                 | main   | ff5ccaf   | feat(clinical-history): implement PatientApiService for CRUD operations  | empty               | 19/11/2024     |
+| RelyCloud/tukun-web                 | main   | dd92484   | feat(patients): add View History button with dynamic routing for patient details | empty         | 19/11/2024     |
+| RelyCloud/tukun-web                 | main   | c0a8960   | feat(patients): add RouterLink to patients component imports for navigation support | empty     | 19/11/2024     |
+| RelyCloud/tukun-web                 | main   | 999a1d7   | feat(router): add history/:id route for clinical history component        | empty               | 19/11/2024     |
+| Nicolini03/tukun-web                | main   | 80520ec   | feat(emergency-numbers): update emergency-numbers.component.css for styles | empty               | 19/11/2024     |
+| Nicolini03/tukun-web                | main   | e1b8016   | feat(emergency-numbers): update emergency numbers details card with conditional rendering | empty | 19/11/2024     |
+
 
 ### 5.2.4.4. Testing Suite Evidence for Sprint Review
 En esta sección se explica y documenta el conjunto de mejoras implementadas en el backend durante el sprint. Para garantizar la correcta funcionalidad de los servicios de autorización y autenticación, así como la corrección de errores previos, se han desarrollado y ejecutado pruebas automatizadas que incluyen Acceptance Tests. Estas pruebas se llevan a cabo utilizando herramientas como Postman y Swagger, lo que permite validar que cada endpoint cumpla con los requisitos de las User Stories definidas.
