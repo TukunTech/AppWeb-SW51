@@ -102,7 +102,29 @@
 |          | 31/10/2024  | Maraza Pedemonte, Erick             | User Stories                                                                  |
 |          | 31/10/2024  | Soto Zorrilla, Oscar Eduardo        | Desarrollo y Análisis de Heurística                                           |
 |          | 01/11/2024  | Soto Zorrilla, Oscar Eduardo        | Participación en video About the team                                         |
-
+| TF1 | Fecha       | Responsable                         | Tarea                                            |
+|-----|-------------|-------------------------------------|-------------------------------------------------|
+|     | 14/11/2024  | Nicolich Alvis, Fabio              | Implementación de la introducción a la sección User Persona |
+|     | 14/11/2024  | Nicolich Alvis, Fabio              | Implementación de la sección About the Product  |
+|     | 14/11/2024  | Nicolich Alvis, Fabio              | Implementación de la sección About the Team     |
+|     | 14/11/2024  | Nicolich Alvis, Fabio              | Corrección de las imágenes del Empathy Mapping de los User Persona |
+|     | 14/11/2024  | Nicolich Alvis, Fabio              | Numeración y orden de los anexos               |
+|     | 14/11/2024  | Bravo Gavilano, Jorge Rafael       | Corrección de imágenes User Persona            |
+|     | 18/11/2024  | Bravo Gavilano, Jorge Rafael       | Agregación de commits propios en la tabla      |
+|     | 16/11/2024  | Soto Zorrilla, Oscar Eduardo       | Creación de Technical stories                  |
+|     | 17/11/2024  | Soto Zorrilla, Oscar Eduardo       | Creación de user goal sprint 4                 |
+|     | 19/11/2024  | Soto Zorrilla, Oscar Eduardo       | Agregué los test                               |
+|     | 18/11/2024  | Soto Zorrilla, Oscar Eduardo       | Generación de documentación API                |
+|     | 17/11/2024  | Soto Zorrilla, Oscar Eduardo       | Generación del despliegue                      |
+|     | 18/11/2024  | Palomares Chavez, Adriana Giovanna | Creación de Technical stories                  |
+|     | 14/11/2024  | Palomares Chavez, Adriana Giovanna | Corrección de user stories                     |
+|     | 18/11/2024  | Palomares Chavez, Adriana Giovanna | Lista de commits del sprint 4                  |
+|     | 18/11/2024  | Quiroz Zambrano, Fabrizio Javier   | Corrección de User Stories                     |
+|     | 18/11/2024  | Quiroz Zambrano, Fabrizio Javier   | Creación de Technical Stories                  |
+|     | 18/11/2024  | Maraza Pedemonte, Erick            | Corrección user stories                        |
+|     | 18/11/2024  | Maraza Pedemonte, Erick            | Corrección Epics                               |
+|     | 18/11/2024  | Maraza Pedemonte, Erick            | Implementación de Us en trello                 |
+|     | 18/11/2024  | Maraza Pedemonte, Erick            | Agregación de tabla de commits propios         |
 
 ---
 
@@ -135,8 +157,20 @@ La aplicación de Lean UX y UX Research nos permitió entender mejor las necesid
 | TB1              | Nicolich Alvis, Fabio Maurizio | Ejecución y Documentación de Procesos:<br>Lean UX y UX Research: Documenté y ejecuté Lean UX y UX Research, incluyendo User Personas, Task Matrix y Journey Maps.<br>Design y Prototyping: Desarrollé y documenté el diseño visual y los prototipos. |
 
 
-#### Conclusiones
-El uso adecuado de lenguajes de programación y herramientas, junto con buenas prácticas y convenciones, facilitó una implementación efectiva y colaborativa del proyecto. La aplicación rigurosa de Lean UX, UX Research, y otros procesos ágiles, tanto en documentación escrita aseguró una solución robusta y bien validada mediante entrevistas con User Personas. La orientación hacia la mejora continua permitirá actualizar y perfeccionar los artefactos basados en hallazgos y recomendaciones. La comunicación clara y objetiva de la propuesta.
+### TF1
+
+### Comunica por oralmente con efectividad a diferentes rangos de audiencia
+
+
+| **Criterio específico**                       | **Acciones Realizadas**                                                                                                                 | **Conclusiones**                                                                                                                                                                                                                                                                                                                              |
+|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Bravo Gavilano, Jorge Rafael**              | Participación en video de exposición. Comunicación constante mediante Discord con el equipo.                                            | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |
+| **Soto Zorrilla, Oscar Eduardo**             | Participación en video de exposición. Comunicación constante mediante Discord con el equipo. Participación en el video donde se muestra la ejecución del programa. | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |
+| **Maraza Pedemonte, Erick**                  | Participación en video de exposición. Comunicación constante con el equipo por Discord y de manera presencial.                          | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |
+| **Quiroz Zambrano, Fabrizio Javier**         | Participación en video de exposición. Comunicación constante mediante Discord con el equipo.                                            | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |
+| **Palomares Chavez, Adriana Giovanna**       | Participación en video de exposición. Comunicación constante mediante Discord con el equipo.                                            | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |
+| **Nicolich Alvis, Fabio Maurizio**           | Participación en video de exposición. Comunicación activa mediante Discord y WhatsApp.                                                  | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
 
 
 # Capítulo I: Introducción
@@ -2530,54 +2564,61 @@ Recomendación:
 La más práctica es incluir una ventana emergente de confirmación al finalizar el ingreso de datos en el módulo de soporte técnico. De esta manera, el usuario podría revisar la información ingresada y corregir cualquier error antes de enviarla, minimizando problemas en la comunicación de soporte y mejorando la precisión sin afectar la experiencia de usuario.
 
 
-# Conclusiones del Proyecto TukunTech
+# Conclusiones
+### Capítulo 1: Introducción
+La solución planteada por TukunTech aborda una problemática crítica en el monitoreo de signos vitales mediante una plataforma innovadora basada en IoT. Esta solución ofrece monitoreo continuo, alertas automáticas y mejora la capacidad de respuesta médica, marcando una diferencia significativa respecto a los sistemas tradicionales.
 
-1. **Aplicación del Lean UX y UX Research**: El uso de estas metodologías permitió entender profundamente las necesidades de los usuarios, facilitando la creación de historias de usuario y un diseño visual adecuado que responde a los requerimientos del proyecto.
-   
-2. **Integración de Tecnología IoT**: La plataforma se centra en el monitoreo continuo y en tiempo real de signos vitales, lo que es crucial para mejorar la atención médica en pacientes críticos, especialmente en cuidados intensivos y postoperatorios.
+### Capítulo 2: Elicitación y Análisis de Requisitos
+El análisis competitivo y las entrevistas revelaron necesidades específicas en el monitoreo médico, como la falta de integración y supervisión en tiempo real. Esto permitió definir requisitos claros y orientar el desarrollo hacia una solución adaptada a usuarios y entornos locales.
 
-3. **Enfoque en la Eficiencia Médica**: La solución desarrollada busca optimizar la capacidad de respuesta del personal médico, reduciendo tiempos de reacción mediante alertas automáticas y centralización de datos.
+### Capítulo 3: Diseño de la Solución
+Se desarrollaron diagramas y prototipos que integran dispositivos IoT con una interfaz intuitiva. Estos diseños aseguran que los usuarios puedan interactuar con el sistema de manera eficiente, facilitando el monitoreo de signos vitales y mejorando la experiencia médica.
 
-4. **Adopción de Buenas Prácticas de Programación**: El equipo siguió convenciones de estilo y nomenclatura en el desarrollo del código, lo que facilita la comprensión y mantenimiento del sistema.
+### Capítulo 4: Implementación
+El uso de tecnologías modernas y la implementación de buenas prácticas aseguraron una solución robusta y funcional. La integración con sistemas existentes y la generación de servicios backend fortalecieron la propuesta técnica.
 
-5. **Documentación Completa y Colaborativa**: La generación de una documentación detallada de procesos y decisiones en cada fase del proyecto aseguró claridad y alineación entre todos los miembros del equipo.
+### Capítulo 5: Validación y Pruebas
+Las pruebas realizadas confirmaron que el sistema cumple con los requisitos planteados, destacando la eficiencia del monitoreo en tiempo real y la capacidad de alertar ante anomalías. La retroalimentación de usuarios potenciales permitió afinar la solución y garantizar su viabilidad.
 
-6. **Validación de Usuario Continua**: A través de entrevistas y validación con personas representativas de los segmentos objetivo, se obtuvieron valiosas retroalimentaciones que guiaron el desarrollo de la solución.
+### Conclusión General
+El proyecto TukunTech se consolidó como una solución integral y funcional para el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios y en cuidados intensivos. Su enfoque innovador basado en IoT, junto con un diseño centrado en el usuario, mejora significativamente la eficiencia médica, optimiza la atención al paciente y establece un modelo escalable para futuras implementaciones.
 
-7. **Enfoque en la Mejora Continua**: El equipo se comprometió a iterar y refinar los artefactos del proyecto, como prototipos y pruebas, basado en hallazgos y recomendaciones.
 
-8. **Compromiso del Equipo**: La comunicación constante entre los integrantes, usando plataformas como Discord y WhatsApp, fomentó una colaboración efectiva que contribuyó al éxito del proyecto.
+# About the Product
+La sección ofrece una visión general del producto, destacando su propósito, funcionalidades clave y el valor que aporta a sus usuarios. Esta introducción permite comprender el contexto del producto y su enfoque en satisfacer las necesidades de los usuarios, alineando sus atributos y capacidades con los objetivos de la solución propuesta. 
 
-9. **Uso del Domain-Driven Design (DDD)**: La integración de los endpoints se estructuró mediante el patrón DDD, lo que facilitó la organización de las funcionalidades del backend en torno a los dominios clave del sistema.
+A continuación, se presenta el link que redirige a un video que explica el servicio de monitoreo de signos vitales que ofrece TukunTech. Este sistema permite una supervisión continua y precisa de los datos vitales, tanto en clínicas privadas como en el hogar, y está dirigido a pacientes postoperatorios y adultos mayores. A través del video, mostramos cómo la tecnología de TukunTech facilita el cuidado de la salud al ofrecer alertas en tiempo real y registros detallados, ayudando tanto a personal médico como a cuidadores a garantizar la seguridad y bienestar del paciente en todo momento.
+![About The Product Screenshoot](./Img%20-%20AboutTheProduct/Captura-About-the-Product.png)
+URL en Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EdNsk6Adla1LhhdXPXH-ojwBlLqf_kdsS0Kn8o1fFxdo5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euptKd
 
-10. **Estandarización de Rutas y Métodos HTTP**: Cada endpoint fue diseñado con convenciones claras de rutas y métodos (GET, POST, etc.), lo que garantiza una estructura consistente y entendible para futuros desarrolladores.
+Duración: 3:14 min
 
-11. **Implementación de Endpoints para Acceso en Tiempo Real**: Los endpoints de monitoreo permiten al personal médico acceder a datos críticos en tiempo real, mejorando así la calidad del seguimiento y la capacidad de respuesta en emergencias.
+Url en Youtube: https://youtu.be/qr0E_qO3SK8?si=c93JFfRLYBXuXDZS
 
-12. **Documentación de los Endpoints**: La documentación exhaustiva de cada endpoint garantiza que los desarrolladores comprendan las funcionalidades y el flujo de datos esperado en el sistema.
+Duración: 3:15 min
 
-13. **Validación y Manejo de Errores en Endpoints**: Se incluyó un manejo robusto de errores y validaciones en los endpoints, lo que asegura que las solicitudes incorrectas sean gestionadas adecuadamente, mejorando la estabilidad del sistema.
+# About the Team
+Esta sección permitirá conocer al equipo detrás del proyecto, presentando un video que captura la esencia de nuestro proceso de trabajo, en donde se destaca cómo cada miembro contribuyó con sus habilidades y esfuerzos. Además, cada participante comparte en cámara su experiencia personal, describiendo las actividades que realizó, los logros obtenidos y las competencias que desarrolló a lo largo del proceso. Algunos de los logros que se alzanzaron en equipo incluyen una comunicación efectiva que permitió mantenernos alineados en cada etapa del proyecto, asegurando que todas las ideas y aportes fueran escuchados y considerados. También logramos un alto nivel de organización y orden, lo cual fue fundamental para gestionar eficientemente el tiempo y los recursos, permitiendo cumplir con los plazos establecidos. A lo largo del proceso, desarrollamos soluciones innovadoras mediante colaboración constante y retroalimentación constructiva, lo que no solo fortaleció nuestras habilidades técnicas, sino que también consolidó la confianza y cohesión del equipo. Estos logros, combinados, nos permitieron entregar resultados de calidad y alcanzar los objetivos propuestos en el proyecto.
 
-14. **Endpoints de Creación y Visualización de Recursos Médicos**: Los endpoints permiten la creación y consulta de recursos como pacientes, doctores y alertas críticas, lo cual facilita una gestión integral de los datos en el sistema.
+URL en Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/EW1f95lc54dClova30xXAG0BQUpsnBNDmurp6seLm_xhVA?e=dwx0qP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-15. **Pruebas de Integración con Postman**: Las pruebas realizadas con Postman ayudaron a verificar que los endpoints funcionan como se espera, asegurando la consistencia y confiabilidad del backend.
-
-16. **Escalabilidad del Backend**: La implementación de los endpoints fue realizada pensando en la escalabilidad futura del sistema, permitiendo agregar nuevas funcionalidades y ampliar el alcance del monitoreo de pacientes en diferentes entornos.
+Duración: 6:30 min.
+Url en Youtube: Video About the Team https://www.youtube.com/watch?v=t7DiETrnHpA
 
 
 ## Anexos
-[Landing Page:](https://tukuntech.github.io/DesarrolloOP-SW57/) 
-
-[Prototyping 1:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EdGwgtH9G4tOpbBooX2ZZX8B0dsCl50puKmCJ5ZueRGV5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ofot6m)
-[Prototyping 2:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EboTDvrtPr9GpfgABkbrnOkBhvvecvdV3rfn5hMTOCoQew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Li2vbL)
-[LandingPAge](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EZiwz8Vm9RtMvlOnevW4KbcB8LpYJNZow4fUzaLNPgsrFQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IZHoP1)
-[Expo TP:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EaeaHUxjSzNMncj7o-29ThIBl5Ow7Fk1a8h8f595mHZExg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OQUFwo)
-[Expo TB1:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EZvR_mWDqsJEs45BYWMTiGsBlpxexmF_P-aodhad-4Bz1A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gTvgSn)
-[Expo Grupal:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EaeaHUxjSzNMncj7o-29ThIBZGImtEDVDxFT4ys6xw7r8A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GKVooN) 
-[Video expo sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EdEjMJbcb3hEsn6q9_j6_GgBxQGJstGwTthOqTyQmUTzSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=F29kBs)
-[Video expo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EUJqQdRefNpBoRsYHTXMj0kB_583VmeEkMsbOFSd8cA5sQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4ExuWg)
-[Video About the product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EdNsk6Adla1LhhdXPXH-ojwBlLqf_kdsS0Kn8o1fFxdo5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euptKd)
-[Video About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/EYML-Gc1O3VHiWB_0VwML9kBd4XlcHh8PHnyKC6h542THg?e=0VvoGj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+1) Link del Landing Page: https://tukuntech.github.io/DesarrolloOP-SW57/
+2) Video presentanción del Web Aplications Prototyping - Segmento Personal de Salud de Clinicas Privadas de pacientes UCI o Postoperatorios: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EdGwgtH9G4tOpbBooX2ZZX8B0dsCl50puKmCJ5ZueRGV5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ofot6m
+3) Video presentanción del Web Aplications Prototyping - Segmento Cuidadores de Adultos Mayores: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EboTDvrtPr9GpfgABkbrnOkBhvvecvdV3rfn5hMTOCoQew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Li2vbL
+4) Video presentación del LandingPage: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EZiwz8Vm9RtMvlOnevW4KbcB8LpYJNZow4fUzaLNPgsrFQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IZHoP1
+5) Video exposición del avance TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EZvR_mWDqsJEs45BYWMTiGsBlpxexmF_P-aodhad-4Bz1A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gTvgSn
+6) Video exposición del Sprint 2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EdEjMJbcb3hEsn6q9_j6_GgBxQGJstGwTthOqTyQmUTzSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=F29kBs
+7) Video exposición del avance TB2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EaeaHUxjSzNMncj7o-29ThIBZGImtEDVDxFT4ys6xw7r8A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GKVooN 
+8)Video exposición del avance TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EUJqQdRefNpBoRsYHTXMj0kB_583VmeEkMsbOFSd8cA5sQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4ExuWg
+9) Video exposición del avance TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EaeaHUxjSzNMncj7o-29ThIBl5Ow7Fk1a8h8f595mHZExg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OQUFwo
+10) Video presentación About the Product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EdNsk6Adla1LhhdXPXH-ojwBlLqf_kdsS0Kn8o1fFxdo5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euptKd
+11) Video presentación About the Team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/EW1f95lc54dClova30xXAG0BQUpsnBNDmurp6seLm_xhVA?e=dwx0qP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+12) Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EXrg7NK4JBJEkBeq_z0SXW0BGLRNsQcN7wJpc0yA81oLAA?e=xdIe0a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ## Bibliografía:
 
