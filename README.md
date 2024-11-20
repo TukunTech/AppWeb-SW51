@@ -2563,6 +2563,471 @@ Al ingresar información en el módulo de soporte técnico, no se ofrece una opc
 Recomendación:
 La más práctica es incluir una ventana emergente de confirmación al finalizar el ingreso de datos en el módulo de soporte técnico. De esta manera, el usuario podría revisar la información ingresada y corregir cualquier error antes de enviarla, minimizando problemas en la comunicación de soporte y mejorando la precisión sin afectar la experiencia de usuario.
 
+## 5.2.4. Sprint 4
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 4. Este sprint se enfocará en la realización de mejoras significativas en el backend, incorporando ajustes en la lógica y optimización del sistema para mejorar el rendimiento general. Además, se corregirán ciertos aspectos teóricos previamente detectados para asegurar la coherencia y precisión del marco de trabajo. Como uno de los objetivos principales de este sprint, se implementará el servicio de autorización y autenticación, reforzando la seguridad y garantizando el acceso controlado a los recursos del sistema. A continuación, se presenta un cuadro resumen que organiza la información discutida durante la planificación, detallando las tareas y objetivos consensuados para este ciclo.
+
+### 5.2.4.1. Sprint Planning 4
+| Sprint #                          | 4                                                                                         |
+|-----------------------------------|-------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**    |                                                                                           |
+| **Date**                          | 13/11/2024                                                                                |
+| **Time**                          | 03:00 PM                                                                                 |
+| **Location**                      | Reunión virtual mediante llamada Discord                                                  |
+| **Prepared By**                   | Adriana Palomares                                                                         |
+| **Attendees (to planning meeting)** | Rafael Bravo / Fabio Nicolich / Erick Maraza / Oscar Soto / Fabrizio Quiroz               |
+| **Sprint 4 – 3 Review Summary**   | Desarrollo WebService.                                                                    |
+| **Sprint 4 – 3 Retrospective Summary** | Correcciones de errores en la documentación, correcciones en nomenclatura del backend. |
+| **Sprint Goal & User Stories**    |                                                                                           |
+| **Sprint 4 Goal**                 | Our focus is on enhancing the platform to provide visitors with more relevant content on the landing page, improving interaction for medical staff and caregivers through a more intuitive web application interface, and establishing a robust infrastructure for developers to manage and process patient data efficiently in real-time.
+We believe this will deliver an improved user experience that encourages greater engagement on the landing page, enables medical staff and caregivers to access and manage patient information securely and effectively, and ensures developers can handle data seamlessly. Additionally, the implementation of authentication and verification services will guarantee secure access to critical system functionalities.
+This will be confirmed when visitors interact more with the landing page, medical staff and caregivers can efficiently access and manage patient information, and developers can ensure data is stored and processed smoothly and securely.
+
+ |
+| **Sprint 4 Velocity**             | 71                                                                                       |
+| **Sum of Story Points**           | 71                                                                                       |
+
+
+### 5.2.4.2. Sprint Backlog 4
+En este sprint, el equipo se enfocará en la implementación de los servicios de autorización y autenticación, fundamentales para garantizar que solo usuarios autorizados tengan acceso a las funcionalidades críticas del sistema. Además, se abordarán correcciones en errores previamente identificados en el backend para asegurar un funcionamiento más robusto y confiable. El objetivo principal es establecer un sistema de seguridad sólido, mejorando la integridad y protección de los datos, mientras se optimizan los procesos de manejo de usuarios. Este trabajo incluye no solo la creación de los servicios de autenticación, sino también ajustes y optimizaciones en la lógica del backend, contribuyendo a una base más estable para futuras funcionalidades del sistema.
+# Sprint 4 Tasks
+
+| User Story ID | User Story Title                                          | Work-Item ID | Work-Item Title                                      | Description                                                                                                                                   | Estimation (Hours) | Assigned To | Status         |
+|---------------|-----------------------------------------------------------|--------------|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------|-------------|----------------|
+| 99            | Inicio de sesión de usuario                               | 1            | Inicio de sesión de usuario                       | Como Desarrollador, Quiero implementar la funcionalidad de inicio de sesión en la API, Para que los usuarios puedan autenticar su acceso.    | 5                   | Adriana     | To-do          |
+| 100           | Ver Historial de Paciente                                 | 2            | Ver Historial de Paciente                         | Como Desarrollador, Quiero implementar la funcionalidad de ver el historial clínico de un paciente, Para que los usuarios accedan a detalles.| 3                   | Fabio       | To-do          |
+| 101           | Listar tipos de sangre                                    | 3            | Listar tipos de sangre                            | Como Desarrollador, Quiero implementar un endpoint para listar todos los tipos de sangre disponibles, Para que se muestren en el sistema.    | 2                   | Rafael      | To-do          |
+| 102           | Listar nacionalidades                                     | 4            | Listar nacionalidades                             | Como Desarrollador, Quiero implementar un endpoint para listar todas las nacionalidades, Para que se usen en formularios del sistema.         | 2                   | Erick       | To-do          |
+| 103           | Listar géneros                                            | 5            | Listar géneros                                    | Como Desarrollador, Quiero implementar un endpoint para listar todos los géneros disponibles, Para que se usen en formularios.               | 2                   | Oscar       | To-do          |
+| 104           | Listar especializaciones médicas                          | 6            | Listar especializaciones médicas                 | Como Desarrollador, Quiero implementar un endpoint para listar especializaciones médicas, Para que se usen en la selección de doctores.      | 2                   | Fabricio    | To-do          |
+| 105           | Listar estados de medicamentos pendientes                 | 7            | Listar estados de medicamentos pendientes         | Como Desarrollador, Quiero implementar un endpoint para listar todos los estados de medicamentos, Para que se usen en el flujo de trabajo.   | 2                   | Adriana     | To-do          |
+| 106           | Listar tipos de alertas críticas                          | 8            | Listar tipos de alertas críticas                 | Como Desarrollador, Quiero implementar un endpoint para listar tipos de alertas críticas, Para que se clasifiquen adecuadamente.             | 2                   | Fabio       | To-do          |
+| 107           | Listar alergias                                           | 9            | Listar alergias                                   | Como Desarrollador, Quiero implementar un endpoint para listar todas las alergias conocidas, Para que se muestren en los registros médicos.  | 2                   | Rafael      | To-do          |
+| 108           | Listar aseguradoras médicas                               | 10           | Listar aseguradoras médicas                       | Como Desarrollador, Quiero implementar un endpoint para listar todas las aseguradoras médicas, Para que se usen en el registro.              | 2                   | Erick       | To-do          |
+| 109           | Creación de la entidad AuthEntity para autenticación      | 11           | Creación de la entidad AuthEntity para autenticación | Como Desarrollador, Quiero implementar una entidad AuthEntity para los usuarios, Para que puedan ser registrados y autenticados.             | 6                   | Oscar       | To-do          |
+| 110           | Creación Auth Guard                                       | 12           | Creación Auth Guard                               | Como Desarrollador, Quiero implementar un guard para la autenticación, Para que proteja rutas del sistema.                                   | 3                   | Fabricio    | To-do          |
+| 111           | Creación Auth Interceptor                                 | 13           | Creación Auth Interceptor                         | Como Desarrollador, Quiero implementar un interceptor para agregar el token de autenticación, Para que valide solicitudes al backend.        | 2                   | Adriana     | To-do          |
+| 112           | Creación Auth Service                                     | 14           | Creación Auth Service                             | Como Desarrollador, Quiero implementar un servicio de autenticación, Para gestionar inicio de sesión, registro y tokens.                     | 2                   | Fabio       | To-do          |
+| 113           | Login                                                     | 15           | Login                                             | Como Desarrollador, Quiero conectar el componente login al backend, Para que los usuarios puedan autenticarse en el sistema.                 | 3                   | Rafael      | To-do          |
+| 114           | Crear cuenta                                              | 16           | Crear cuenta                                      | Como Desarrollador, Quiero conectar el componente create-account al backend, Para que los usuarios se registren en el sistema.               | 2                   | Erick       | To-do          |
+| 115           | Ver citas                                                 | 17           | Ver citas                                         | Como Desarrollador, Quiero conectar el componente appointments al API service, Para que los usuarios puedan ver sus citas programadas.       | 2                   | Oscar       | To-do          |
+| 116           | Reprogramar citas                                         | 18           | Reprogramar citas                                 | Como Desarrollador, Quiero conectar el componente reschedule-appointments al API service, Para reprogramar una cita.                         | 3                   | Fabricio    | To-do          |
+| 117           | Agendar nuevas citas                                      | 19           | Agendar nuevas citas                              | Como Desarrollador, Quiero conectar el componente schedule-appointments al API service, Para que los usuarios agenden citas.                 | 3                   | Adriana     | To-do          |
+| 118           | Ver perfil Adultos mayores                                | 20           | Ver perfil Adultos mayores                       | Como Desarrollador, Quiero conectar el componente elder-profile al API service, Para ver información de adultos mayores.                     | 2                   | Fabio       | To-do          |
+| 119           | Ver lista de medicinas pendientes                         | 21           | Ver lista de medicinas pendientes                | Como Desarrollador, Quiero conectar el componente elder-reminders al API service, Para que se vean medicinas pendientes.                     | 2                   | Rafael      | To-do          |
+| 120           | Ver signos vitales de adultos mayores                     | 22           | Ver signos vitales de adultos mayores            | Como Desarrollador, Quiero conectar el componente elder-vital-signs al API service, Para que los usuarios visualicen signos vitales.         | 3                   | Erick       | To-do          |
+| 121           | Soporte técnico                                           | 23           | Soporte técnico                                   | Como Desarrollador, Quiero conectar el componente technical-support al API service, Para que los usuarios reporten problemas.                | 2                   | Oscar       | To-do          |
+| 122           | Listar médicos                                            | 24           | Listar médicos                                   | Como Desarrollador, Quiero conectar el componente doctors al API service, Para que los usuarios vean médicos disponibles.                   | 3                   | Fabricio    | To-do          |
+| 123           | Ver listado de preguntas                                  | 25           | Ver listado de preguntas                         | Como Desarrollador, Quiero conectar el componente technical-support al API service, Para visualizar preguntas frecuentes.                    | 2                   | Adriana     | To-do          |
+| 124           | Visualización signos vitales pacientes post operatorios   | 26           | Visualización signos vitales pacientes post operatorios | Como Desarrollador, Quiero crear una pantalla para signos vitales de post operatorios, Para monitorear en tiempo real.                     | 2                   | Fabio       | To-do          |
+| 125           | Visualización signos vitales pacientes en UCI             | 27           | Visualización signos vitales pacientes en UCI    | Como Desarrollador, Quiero crear una pantalla para signos vitales en UCI, Para monitorear en tiempo real.                                    | 2                   | Rafael      | To-do          |
+
+### 5.2.4.3. Development Evidence for Sprint Review
+En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, enfocados en la incorporación de los servicios de autorización y autenticación, así como en la corrección de errores identificados en el backend. El enfoque principal ha sido fortalecer la seguridad y confiabilidad del sistema, estableciendo una estructura que asegura que solo los usuarios autorizados tengan acceso a las funcionalidades críticas. Además, se han realizado ajustes en la lógica del backend para resolver problemas previos, lo que contribuye a una base más sólida y preparada para futuras implementaciones. Este trabajo permitirá una experiencia de usuario más segura y estable, alineada con los objetivos planteados para este ciclo.
+A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, ofreciendo una visión clara del progreso técnico alcanzado durante este sprint.
+| Repository                              | Branch | Commit ID | Commit Message                                                          | Commit Message Body | Committed On   |
+|-----------------------------------------|--------|-----------|--------------------------------------------------------------------------|---------------------|----------------|
+| oscaredu1226/tukun-tech-platform-open-source | main   | 1b3dfcf   | fix(api): correct route naming conventions for medic endpoint            | empty               | 13/11/2024     |
+| oscaredu1226/tukun-tech-platform-open-source | main   | 9207f5c   | fix(api): correct route naming conventions for appointment endpoint      | empty               | 13/11/2024     |
+| Relycloud/tukun-tech-platform-open-source | main   | 935437c   | fix(api): correct route naming conventions for clinical history endpoint | empty               | 13/11/2024     |
+| AdriPCH/tukun-tech-platform-open-source | main   | 2032b58   | feat: update bed and patient routes                                      | empty               | 13/11/2024     |
+| Rafooo6/tukun-tech-platform-open-source | main   | f82b47b   | fix(pending-medicine): resolve incorrect handling of pendingMedicineId in DeleteMapping endpoint | empty | 13/11/2024     |
+| Rafooo6/tukun-tech-platform-open-source | main   | 18b56f3f  | fix(pending-medicine): remove unused id parameter from getAllCriticalAlerts endpoint | empty | 13/11/2024     |
+| Rafooo6/tukun-tech-platform-open-source | main   | a386f7b   | fix(critical-alerts): remove unused id parameter from getAllCriticalAlerts endpoint | empty | 13/11/2024     |
+| Rafooo6/tukun-tech-platform-open-source | main   | 855016e   | fix(technical-support): update endpoint paths.                           | empty               | 13/11/2024     |
+| oscaredu1226/tukun-tech-platform-open-source | main   | 72185a7   | feat: add Dockerfile to build and run the application.                   | empty               | 16/11/2024     |
+| oscaredu1226/tukun-tech-platform-open-source | main   | 4e6ece6   | chore: update application.properties for TukunTech platform.             | empty               | 16/11/2024     |
+| oscaredu1226/tukun-tech-platform-open-source | main   | 9ce6ddd   | chore: update git configuration.                                         | empty               | 16/11/2024     |
+| oscaredu1226/tukun-tech-platform-open-source | main   | bc32e50   | fix: resolve errors in ClinicalHistoryController.                        | empty               | 16/11/2024     |
+| AdriPCH/tukun-angular                  | main   | 59aae65   | feat: update and add data                                                | empty               | 16/11/2024     |
+| AdriPCH/tukun-angular                  | main   | cce67e8   | feat: update                                                             | empty               | 16/11/2024     |
+| AdriPCH/tukun-angular                  | main   | e7dc4830   | feat: add services                                                       | empty               | 16/11/2024     |
+| AdriPCH/tukun-angular                  | main   | 58b7fd1   | feat: update patient registration                                        | empty               | 16/11/2024     |
+| AdriPCH/tukun-angular                  | main   | ab8e5f1   | feat: update patients                                                    | empty               | 16/11/2024     |
+| AdriPCH/tukun-angular                  | main   | 2e1c33f   | feat: update                                                             | empty               | 16/11/2024     |
+| AdriPCH/tukun-angular                  | main   | 840d5f8   | feat: add services                                                       | empty               | 16/11/2024     |
+| oscaredu1226/tukun-angular             | main   | 74c4dda   | feat: update utility service to optimize performance and add validation  | empty               | 16/11/2024     |
+| oscaredu1226/tukun-angular             | main   | 81c1ca6   | feat: update Doctor entity with new fields and improvements              | empty               | 16/11/2024     |
+| oscaredu1226/tukun-angular             | main   | 40bdd04   | feat: add specialization as a new feature to the Doctor entity           | empty               | 16/11/2024     |
+| oscaredu1226/tukun-angular             | main   | de24a00   | refactor: update Doctor API service with enhanced logic and new methods  | empty               | 16/11/2024     |
+| oscaredu1226/tukun-angular             | main   | 3fc8da0   | refactor: update Doctor and Registration components with enhanced functionality and UI improvements | empty | 16/11/2024     |
+| AdriPCH/tukun-angular                  | main   | d1b1ef4   | feat(bed): add services                                                 | empty               | 17/11/2024     |
+| AdriPCH/tukun-angular                  | main   | e921e38   | feat(bed): add model                                                    | empty               | 17/11/2024     |
+| AdriPCH/tukun-angular                  | main   | 6111bd1   | feat: update translate                                                  | empty               | 17/11/2024     |
+| AdriPCH/tukun-angular                  | main   | eb22029   | feat: update icu patient component                                      | empty               | 17/11/2024     |
+| Rafooo6/tukun-angular                  | main   | 9df384e   | feat(technical-support): add styles for technical support component     | empty               | 17/11/2024     |
+| Rafooo6/tukun-angular                  | main   | 19a7053   | feat(technical-support): add HTML structure for technical support component | empty            | 17/11/2024     |
+| Rafooo6/tukun-angular                  | main   | 9249ec9   | feat(technical-support): implement logic for technical support component | empty            | 17/11/2024     |
+| Rafooo6/tukun-angular                  | main   | 8b5936a   | test(technical-support): add unit tests for technical support service   | empty               | 17/11/2024     |
+| Rafooo6/tukun-angular                  | main   | 5ea3c18   | feat(technical-support): create service for handling technical support API integration | empty       | 17/11/2024     |
+| Rafooo6/tukun-angular                  | main   | c9c7a46   | test(technical-support): add unit tests for technical support model     | empty               | 17/11/2024     |
+| Rafooo6/tukun-angular                  | main   | fe123b5   | feat(technical-support): define model for technical support             | empty               | 17/11/2024     |
+| Nicolini03/tukun-tech-platform-open-source | main   | 60d8f2b   | fix(emergency-numbers): correct route naming conventions for emergency numbers endpoints | empty | 16/11/2024     |
+| Nicolini03/tukun-tech-platform-open-source | main   | 5d6177b   | feat: update aggregate and controller of emergencyNumbers               | empty               | 18/11/2024     |
+| Nicolini03/tukun-tech-platform-open-source | main   | 0df0b3f   | feat: delete contactName aggregate                                      | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-angular              | main   | adb1a23   | feat: add allergy in util service                                       | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-angular              | main   | ed1041d   | feat: elder vital signs component                                       | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-angular              | main   | 76a9271   | feat: i18n configuration                                                | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-angular              | main   | 895ed8a   | feat(elder-vital-signs): add component for displaying elder vital signs | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-angular              | main   | b5e3fab   | feat(elderbed): add service for fetching elder bed data                 | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-angular              | main   | f3712ec   | feat(medicalinsurance): add model for handling medical insurance data   | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-angular              | main   | 5753871   | feat(elder): add elder model for representing elder data                | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-angular              | main   | 387b398   | feat(elder-api): implement API service for elder operations             | empty               | 18/11/2024     |
+| Ericksnpaii/tukun-angular              | main   | 21ad9f0   | feat(allergy): add model for allergy data handling                      | empty               | 18/11/2024     |
+| Nicolini03/tukun-angular               | main   | cc946d1   | feat(emergency-numbers): add emergency-numbers.component.css for styles | empty               | 19/11/2024     |
+| Nicolini03/tukun-angular               | main   | c444b0d   | feat(emergency-numbers): add emergency numbers details card with conditional rendering | empty | 19/11/2024     |
+| Nicolini03/tukun-angular               | main   | 0aa3076   | feat(emergency-numbers): add unit tests for emergency-numbers.component | empty               | 19/11/2024     |
+| Nicolini03/tukun-angular               | main   | b16d7cb   | feat(emergency-numbers): implement functionality for emergency-numbers.component | empty         | 19/11/2024     |
+| Nicolini03/tukun-angular               | main   | ee78bc2   | i18n(en): update English translations for emergency numbers             | empty               | 19/11/2024     |
+| Nicolini03/tukun-angular               | main   | 9a8b02d   | i18n(es): update Spanish translations for emergency numbers             | empty               | 19/11/2024     |
+| RelyCloud/tukun-angular                | main   | 6e241ae   | feat(clinical-history): add clinical-history.component.css for styles   | empty               | 19/11/2024     |
+| RelyCloud/tukun-angular                | main   | 75b40c9   | feat(clinical-history): implement clinical history component with patient data fetching | empty | 19/11/2024     |
+| RelyCloud/tukun-angular                | main   | ec5763f   | feat(clinical-history): add HistoryClinic class with associated patient data types | empty | 19/11/2024     |
+| RelyCloud/tukun-angular                | main   | ff5ccaf   | feat(clinical-history): implement PatientApiService for CRUD operations | empty               | 19/11/2024     |
+| RelyCloud/tukun-angular                | main   | dd92484   | feat(patients): add View History button with dynamic routing for patient details | empty         | 19/11/2024     |
+| RelyCloud/tukun-angular                | main   | c0a8960   | feat(patients): add RouterLink to patients component imports for navigation support | empty     | 19/11/2024     |
+| RelyCloud/tukun-angular                | main   | 999a1d7   | feat(router): add history/:id route for clinical history component       | empty               | 19/11/2024     |
+| Nicolini03/tukun-angular | main   | 80520ec   | feat(emergency-numbers): update emergency-numbers.component.css for styles | empty               | 19/11/2024     |
+| Nicolini03/tukun-angular | main   | e1b8016   | feat(emergency-numbers): update emergency numbers details card with conditional rendering | empty | 19/11/2024     |
+
+### 5.2.4.4. Testing Suite Evidence for Sprint Review
+En esta sección se explica y documenta el conjunto de mejoras implementadas en el backend durante el sprint. Para garantizar la correcta funcionalidad de los servicios de autorización y autenticación, así como la corrección de errores previos, se han desarrollado y ejecutado pruebas automatizadas que incluyen Acceptance Tests. Estas pruebas se llevan a cabo utilizando herramientas como Postman y Swagger, lo que permite validar que cada endpoint cumpla con los requisitos de las User Stories definidas.
+En Postman, se ha configurado una suite de pruebas para evaluar el correcto funcionamiento de los nuevos servicios, verificando el rendimiento y la precisión de las respuestas en diferentes escenarios. Además, se utiliza Swagger para documentar y ejecutar pruebas de los endpoints, asegurando que las rutas y parámetros funcionen según lo esperado.
+A continuación se muestra un ejemplo de test en la plataforma de PostMan, con nuestro API desplegado para la creación de un paciente.
+![POST-Patient](./PostManDeploy/PostManPatient.png)
+
+A continuación se muestra un ejemplo de test en la plataforma de PostMan, con nuestro API desplegado para la creación de un médico.
+![POST-Medic](./PostManDeploy/PostManMedics.png)
+
+A continuación se muestra un ejemplo de test en la plataforma de PostMan, con nuestro API desplegado para mostrar los pacientes.
+![GET-Patients](./PostManDeploy/PostManPatient2.png)
+
+A continuación se muestra un ejemplo de test en la plataforma de PostMan, con nuestro API desplegado para mostrar los médicos.
+![GET-Medics](./PostManDeploy/PostManMedics2.png)
+
+Creación de cuentas: genera el TOKEN
+![Register](./PostManDeploy/PostManRegister.png)
+
+Login: verificar el TOKEN
+![Login](./PostManDeploy/PostManLogin.png)
+
+
+### 5.2.4.5. Execution Evidence for Sprint Review
+Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión de los servicios de autorización y autenticación en el backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de doctores, pacientes y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos de pacientes, así como la gestión de la información de los doctores, junto con la autenticación y autorización de usuarios para proteger el acceso a estas funcionalidades.
+Además, se realizaron correcciones a errores previos en el backend, optimizando el rendimiento y asegurando una interacción más confiable con el sistema. Se presentan capturas de pantalla de las principales vistas implementadas en el frontend que interactúan con estos endpoints, permitiendo una navegación más fluida y eficiente. También se incluye un enlace a un video que ilustra la visualización y navegación logradas en este Sprint, mostrando cómo los usuarios pueden interactuar de manera segura e intuitiva con las funcionalidades disponibles.
+Vista general de los endpoints generados vía Swagger: se observan los endpoints con sus respectivos títulos, incluyendo aquellos dedicados a la autenticación y autorización de usuarios.
+Se muestra la validación en el login, al no ser correcto los datos aparece un mensaje de error.
+![Login](./ProgramaEjecutado/LoginErroneo.png)
+
+Crear un doctor:
+![Doctor](./ProgramaEjecutado/CreacionDoctor.png)
+![Doctor](./ProgramaEjecutado/ConfirmacionDoctor.png)
+
+Listar Doctores:
+![Doctor](./ProgramaEjecutado/Doctores.png)
+
+Crear un paciente:
+![Paciente](./ProgramaEjecutado/CreacionPaciente.png)
+
+Listar Pacientes:
+![Paciente](./ProgramaEjecutado/Pacientes.png)
+
+Panel de pacientes por operatorios:
+![Panel](./ProgramaEjecutado/PostPatient.png)
+ 
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review.(AGREGAR AUTORIZACION)
+Esta sección documenta los endpoints desarrollados durante el Sprint para la gestión de doctores y pacientes en la plataforma Tukun Tech. Se detallan las acciones implementadas (GET, POST, PUT) con ejemplos de llamadas y respuestas, así como enlaces a la documentación desplegada. Además, se incluyen capturas de pantalla que ilustran la interacción con los Web Services, y los enlaces al repositorio junto con los commits relevantes para este Sprint. Todo esto se basará en la documentación realizada mediante OpenAPI. 
+A continuación se mostrarán capturas que evidencian los avances.
+Vista General:
+![OpenAPI1](./OpenApiSprint3/OpenApi1.png)
+
+Ejemplo POST-Medics:
+![OpenAPI2](./OpenApiSprint3/OpenApi2.png)
+
+Ejemplo POST-Patient:
+![OpenAPI3](./OpenApiSprint3/OpenApi3.png)
+
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review
+El despliegue del backend de la solución se realiza siguiendo un proceso definido que permite la publicación exitosa del producto digital. A continuación, se describen los pasos clave:
+Repositorio de Código Fuente
+El código fuente del backend se encuentra alojado en un repositorio Git en GitHub. Este contiene todos los archivos necesarios, como el código, configuraciones y dependencias, organizados para facilitar su despliegue.
+![GitHub](./DeployRender/GitHub.png)
+
+Configuración del Contenedor Docker
+En el proyecto se utilizó un archivo Dockerfile para facilitar la creación de un contenedor que garantice la portabilidad y consistencia del entorno de ejecución del backend. Este archivo define un flujo automatizado para compilar, empaquetar y ejecutar la aplicación en cualquier sistema compatible con Docker, eliminando dependencias del entorno local.
+El Dockerfile implementado dentro del proyecto está diseñado para construir la imagen en dos etapas:
+Etapa de Construcción: Utilizando una imagen base de Maven con soporte para Java 22 (maven:3-eclipse-temurin-22), el proyecto se compila y empaqueta. Se copian todos los archivos del proyecto al contenedor y se ejecuta el proceso de empaquetado mediante Maven, excluyendo las pruebas para optimizar la velocidad de construcción.
+Etapa de Ejecución: Para la etapa de ejecución, se utiliza una imagen base ligera (eclipse-temurin:22-alpine) que incluye únicamente lo necesario para ejecutar la aplicación empaquetada. El archivo JAR generado en la etapa anterior se copia al contenedor final, se expone el puerto 8080 y se configura el punto de entrada para que la aplicación se inicie automáticamente cuando se ejecute el contenedor.
+El uso de este Dockerfile dentro del proyecto permite simplificar el despliegue y garantiza que la aplicación sea ejecutable de manera uniforme en diferentes entornos, mejorando la eficiencia y reduciendo problemas relacionados con configuraciones de sistema variables.
+![DockerFile](./DeployRender/DockerFile.png)
+
+Base de Datos Aiven para MySQL
+La base de datos se gestiona mediante Aiven para MySQL, un servicio administrado en la nube que garantiza alta disponibilidad y conexión segura mediante certificados SSL. La configuración de conexión incluye credenciales, rutas seguras y los parámetros necesarios para la integración con el backend.
+![Aiven](./DeployRender/Aiven.png)
+
+Plataforma de Despliegue Render
+Render se utiliza como plataforma para el despliegue continuo del backend. A través de esta plataforma, el código se extrae directamente desde el repositorio Git y se configura para ejecutarse en un entorno preparado con soporte para contenedores. La configuración incluye la exposición de puertos y la provisión de variables de entorno para asegurar la correcta operación de la aplicación en producción. A continuación se muestra el paso a paso.
+Conexión con el repositorio:
+![Render](./DeployRender/Render5.png)
+
+Se selecciona Docker como lenguaje para poder interpretarlo.
+![Render](./DeployRender/Render6.png)
+
+Se definen las variables necesaria para la conexión con la base de datos en la nube:
+![Render](./DeployRender/Render7.png)
+
+Se inicial el despliegue mediante Render:
+![Render](./DeployRender/Render1.png)
+
+Detecta que se trabaja con el framework de SpringBoot:
+![Render](./DeployRender/Render2.png)
+
+Indica la señal que el servicio funciona:
+![Render](./DeployRender/Render3.png)
+
+Verificación de la Base de Datos con MySQL Workbench
+Durante el despliegue, se utiliza MySQL Workbench para garantizar que la base de datos está configurada correctamente, verificando conectividad, integridad de datos y la ejecución de consultas necesarias para pruebas. En donde se configura de acuerdo a los parámetros establecidos por Aiven.
+![MySQL](./DeployRender/MySQL1.png)
+
+Este proceso asegura un despliegue ordenado y confiable del backend, manteniendo la calidad y accesibilidad del producto digital en todo momento.
+Muestra del despliegue:
+![Render](./DeployRender/Render8.png)
+
+
+### 5.2.4.8. Team Collaboration Insights during Sprint.
+En esta sección, el equipo describe el desarrollo de las actividades de implementación, resaltando el uso de herramientas colaborativas como GitHub, Trello, Discord y WhatsApp para optimizar la comunicación y el seguimiento del progreso. GitHub ha sido esencial para gestionar el código y registrar los commits de cada miembro, mientras que Trello ha facilitado la organización de tareas y el monitoreo del avance en los distintos productos del Sprint, como la página de aterrizaje, las aplicaciones web y los servicios backend. Discord y WhatsApp han sido clave para la comunicación en tiempo real, permitiendo a los integrantes resolver dudas y coordinar actividades de manera ágil. A continuación, se muestran capturas de pantalla de los análisis de colaboración y de los commits en GitHub, demostrando la participación activa de todos los miembros en la implementación del proyecto.
+
+![trello](./trello-img/ello.png)
+
+Landing page:
+![LandingPage](./CommitsSprint4/LandingG.png)
+![LandingPage](./CommitsSprint4/LandingE.png)
+
+FrontEnd:
+![FrontEnd](./CommitsSprint4/FrontG.png)
+![FrontEnd](./CommitsSprint4/FrontE.png)
+
+BackEnd:
+![BackEnd](./CommitsSprint4/BackG.png)
+![BackEnd](./CommitsSprint4/BackE.png)
+
+#### 5.3. Validation Interviews.
+En esta sección, el equipo registra y explica las actividades realizadas durante las entrevistas de validación a lo largo del proyecto. Estas entrevistas son fundamentales para obtener retroalimentación directa de los usuarios pertenecientes a los segmentos objetivo, quienes interactúan con la Landing Page y las aplicaciones desarrolladas. Se han estructurado diversas secciones, que incluyen el Diseño de Entrevistas, el Registro de Entrevistas y las Evaluaciones según heurísticas, lo que permitirá un análisis exhaustivo de la experiencia del usuario. Además, se aplicará el formato de evaluación heurística indicado para el proyecto, asegurando que se identifiquen áreas de mejora y se validen las decisiones de diseño tomadas. A través de este proceso, buscamos garantizar que nuestras soluciones satisfacen las necesidades y expectativas de los usuarios finales.
+
+#### 5.3.1. Diseño de Entrevistas.
+**Preguntas para el Personal Médico al Cuidado de Pacientes Postoperatorios/UCI**
+_**Interacción Inicial**_
+¿Qué te llamó la atención en la primera vista del Landing Page?
+¿La navegación es clara desde el inicio? ¿Dónde encontraste más dificultades?
+
+_**Funcionalidades del Landing Page**_
+¿La información presentada en la Landing Page es relevante para tus necesidades? ¿Por qué sí o por qué no?
+¿Hay algún contenido en la Landing Page que consideres innecesario?
+¿Cómo te gustaría que se presentarán los recursos y herramientas disponibles en el Landing Page?
+
+_**Usabilidad de la Aplicación**_
+Al utilizar la aplicación, ¿qué tan fácil fue registrarte o iniciar sesión?
+¿Cómo calificarías el proceso de recuperación de contraseña en caso de olvidarla?
+¿Te parece intuitiva la estructura de navegación de la aplicación? Si no, ¿qué sugerencias tendrías?
+¿Hubo alguna sección de la aplicación que encontraste poco clara o confusa? ¿Cuál?
+
+_**Gestión de Pacientes**_
+¿El proceso para agregar un nuevo paciente es fácil de seguir? ¿Qué mejorarías?
+Al actualizar la información de un paciente, ¿te resulta fácil encontrar los campos que necesitas?
+¿Cómo evalúas la función de búsqueda para encontrar pacientes? ¿Es efectiva?
+¿Hay información crítica que no esté siendo capturada en la aplicación? Si es así, ¿cuál?
+
+_**Acceso a Información Crítica**_
+¿Puedes acceder rápidamente a la información clínica que consideras esencial para tus pacientes?
+¿Qué tipo de reportes o estadísticas te gustaría generar a partir de la información almacenada?
+¿Cómo evalúas la visibilidad de alertas o recordatorios dentro de la aplicación? ¿Son efectivos?
+
+_**Integración y Comunicación**_
+¿La aplicación facilita la comunicación con otros miembros del equipo de salud? ¿Cómo?
+¿Qué características de colaboración te gustaría ver implementadas en el futuro?
+¿Qué tan útil consideras que sería una función de chat interno dentro de la aplicación para coordinar cuidados?
+
+_**Feedback General**_
+¿Qué mejoras específicas sugerirías para el Landing Page?
+¿Qué funcionalidades adicionales crees que serían útiles en la aplicación para mejorar tu trabajo?
+¿Cómo crees que esta aplicación podría afectar positivamente la atención a tus pacientes postoperatorios?
+
+**Preguntas para el Personal Encargado de Adultos Mayores**
+_**Interacción Inicial**_
+¿Cuál fue tu primera impresión al ver el Landing Page? ¿Te resulta atractivo?
+¿La información en el Landing Page te parece relevante para el cuidado de los adultos mayores? ¿Por qué sí o por qué no?
+
+_**Funcionalidades del Landing Page**_
+¿Hay algún contenido específico que te gustaría ver en el Landing Page que no esté presente?
+¿Qué partes de la Landing Page consideras confusas o desorganizadas?
+
+_**Usabilidad de la Aplicación**_
+¿Qué tan fácil fue para ti navegar por la aplicación en general?
+¿Cómo calificarías la claridad de las instrucciones y mensajes en la aplicación? ¿Hubo algo que no entendiste?
+¿Te parece sencillo el proceso para registrarte o iniciar sesión en la aplicación?
+
+_**Monitoreo de Pacientes**_
+¿Cómo evalúas la funcionalidad de monitoreo de salud de los adultos mayores en la aplicación?
+¿Los informes de salud son fáciles de generar y entender? ¿Qué sugerencias tendrías para mejorarlos?
+¿Qué tipo de datos sobre los adultos mayores consideras imprescindibles que debería recopilar la aplicación?
+
+_**Acceso a Información Importante**_
+¿Puedes acceder fácilmente a la información sobre los cuidados y necesidades de los adultos mayores que gestionas?
+¿Cómo evalúas la claridad de las alertas y recordatorios en la aplicación? ¿Son útiles?
+¿Hay información que crees que debería ser más accesible dentro de la aplicación?
+
+_**Integración y Comunicación**_
+¿La aplicación facilita la comunicación con otros cuidadores o profesionales de la salud? Si es así, ¿cómo?
+¿Qué características de colaboración te gustaría ver implementadas en la aplicación para el cuidado de adultos mayores?
+¿Te sería útil una función de chat para comunicarte con otros miembros del equipo de cuidado? ¿Por qué?
+
+_**Feedback General**_
+¿Qué cambios sugeriría para mejorar la experiencia en el Landing Page?
+¿Qué funcionalidades adicionales crees que podrían ser valiosas para tu trabajo con adultos mayores?
+¿Cómo crees que esta herramienta podría impactar la calidad de la atención que ofreces a los adultos mayores?
+
+#### 5.3.2. Registro de Entrevistas
+Entrevistado 1 #:
+Nombre y Apellidos: Edu Rios
+Edad: 23
+Evidencias de reunión:
+![entrevista 4](./imgs%20entrevista/entrevista4.png)
+
+URL:
+[https://drive.google.com/file/d/1-dDtzyEffmUQBTyNSeJCfOwaN4jqDLRK/view?usp=sharing] 
+
+Tiempo: 18:19 min
+
+Resumen de Entrevista:
+El cuidador indicó que el Landing Page es visualmente atractivo y profesional, lo cual genera una buena primera impresión. Sin embargo, consideró que una organización más clara y simplificada de la información sería útil para identificar de inmediato las características principales de la aplicación. Aunque la información presentada parece en su mayoría relevante, sugirió incluir contenido adicional, como testimonios de otros cuidadores y una sección de preguntas frecuentes para brindar una idea más completa de las funcionalidades y beneficios específicos de la plataforma.
+
+En términos de usabilidad, el cuidador mencionó que la navegación en la aplicación es sencilla, aunque ciertos elementos podrían reorganizarse para una experiencia más intuitiva. El proceso de registro y de inicio de sesión es simple, aunque una guía breve sería útil para usuarios menos experimentados. Al usar la función de monitoreo, destacó que los informes son fáciles de generar, pero recomendó añadir gráficos o representaciones visuales que ayuden a interpretar mejor la información de salud del adulto mayor. Además, sugirió incluir datos adicionales como alertas de medicación o signos vitales críticos para mejorar el seguimiento.
+
+En general, el cuidador percibió que la aplicación tiene un buen potencial para facilitar su trabajo al centralizar la información y permitir un monitoreo constante de la salud del adulto mayor. Sugirió que el Landing Page se enfoque más en los recursos y funciones clave para los cuidadores, y recomendó una sección de alertas personalizables para recibir notificaciones relevantes en tiempo real. También indicó que una función de chat interno sería valiosa para coordinar el cuidado en equipo, y en conjunto, estas mejoras contribuirían a brindar una atención más integral y efectiva al adulto mayor.
+
+Entrevistado 2 #:
+Nombre y Apellidos: Flavio Nicolich 
+Edad: 67
+Evidencias de reunión:
+![entrevista 5](./imgs%20entrevista/entrevista3.png)
+
+URL:
+[https://drive.google.com/file/d/1-dDtzyEffmUQBTyNSeJCfOwaN4jqDLRK/view?usp=sharing]
+
+Tiempo: 35:10 min
+
+Resumen de Entrevista:
+El personal médico comentó que el diseño del Landing Page es visualmente atractivo y adecuado para su propósito, pero sugirieron mejorar la organización de la información para que el acceso a los recursos sea más intuitivo desde el inicio. La navegación es en su mayoría clara, aunque algunas secciones podrían estar mejor estructuradas para facilitar la búsqueda rápida de información esencial. A nivel de contenido, opinaron que la información es relevante para el cuidado postoperatorio y en UCI, aunque señalaron que algunos elementos podrían simplificarse o eliminarse para enfocarse exclusivamente en lo más útil para el entorno clínico.
+
+En cuanto al uso de la aplicación, la usabilidad fue considerada en términos generales adecuada, con un proceso de registro sencillo y un sistema de navegación intuitivo. No obstante, destacaron áreas específicas que podrían beneficiarse de ajustes, como una guía rápida para el manejo de datos clínicos y un sistema de recuperación de contraseña más accesible. También comentaron que el proceso para agregar y actualizar información de los pacientes es fácil de seguir, aunque una organización mejorada de los campos y datos críticos sería útil para acceder más eficientemente a la información relevante. La función de búsqueda es efectiva, pero sugirieron añadir filtros adicionales para optimizar los resultados.
+
+De manera general, el equipo médico consideró que la aplicación tiene un buen potencial para mejorar la atención de pacientes en UCI y postoperatorios. Recomendaron resaltar los recursos esenciales en el Landing Page y organizar mejor las alertas y recordatorios dentro de la aplicación para facilitar un seguimiento constante de los pacientes. Asimismo, sugirieron que el sistema incluya reportes detallados y funciones de colaboración, como un chat interno, para mejorar la coordinación del equipo de salud. En conclusión, consideraron que estas mejoras permitirían una atención más eficiente, una comunicación más efectiva y una experiencia de usuario más intuitiva, contribuyendo significativamente a la calidad de atención.
+
+#### 5.3.3. Evaluaciones según heurísticas.
+UX Heuristics & Principles Evaluation 
+Usability – Inclusive Design – Information Architecture
+
+CARRERA : Ingeniería de Software
+CURSO : Desarrollo de Aplicaciones Open Source
+SECCIÓN : Código de la sección
+PROFESORES : Todos
+AUDITOR : Ráfaga
+CLIENTE(S) : Nombre de las personas que participan en la sesión
+
+NOTA: Los contenidos de este formato (en color plomo) son referidos a un sitio web de ejemplo. Use este formato como referencia de la estructura que tiene que ser entregada y elimine el contenido en plomo. Coloque su contenido con color azul.
+
+SITE o APP A EVALUAR: 
+Tukun-Tech
+
+TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Inicio de sesión.
+2. Creación de cuenta..
+3. Visualización de signos vitales de pacientes postoperatorios.
+4. Visualización de signos vitales de pacientes UCI.
+5. Registro de médico.
+6. Registro de pacientes.
+7. Visualización de pacientes.
+8. Visualización de doctores.
+9. Agendar citas.
+10. Reagendar citas.
+11. Visualización de signos vitales de adultos mayores.
+12. Visualización de perfil de adultos mayores.
+13. Visualización y edición de contactos de emergencia.
+14. Visualización de recordatorios.
+15. Registro de solicitudes de soporte técnico.
+
+ESCALA DE SEVERIDAD: 
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+TABLA RESUMEN:
+
+| #  | Problema                                                          | Escala de severidad | Heurística/Principio violado            |
+|----|-------------------------------------------------------------------|---------------------|-----------------------------------------|
+| 1  | No existe un botón de cierre de sesión al ingresar a la aplicación. | 3                   | Usabilidad: Libertad y control del usuario |
+| 2  | No se ha integrado una confirmación de datos al crear a los pacientes. | 3               | Usabilidad: Consistencia y estándares   |
+| 3  | No se ha integrado una confirmación de datos al crear a los doctores. | 2               | Usabilidad: Consistencia y estándares   |
+| 4  | No se ha integrado una confirmación de datos en el módulo de soporte técnico. | 1         | Diseño Inclusivo: Proporciona experiencias comparables |
+
+
+DESCRIPCIÓN DE PROBLEMAS:
+
+PROBLEMA #1: No existe un botón de cierre de sesión al ingresar a la aplicación.
+
+Severidad: 3
+Heurística violada: Usabilidad - Libertad y control del usuario
+
+Problema:
+Al ingresar a la aplicación, no se cuenta con un botón que permita cerrar la sesión del usuario. Esto significa que, una vez dentro, el usuario queda obligado a permanecer en su cuenta sin la opción de salir de forma segura o cambiar de usuario, lo cual afecta su control sobre la sesión y podría impactar en la seguridad de su información. Esto genera un incremento en el esfuerzo requerido para gestionar el uso de la aplicación.
+![Problema1](./heuristica/1.png)
+
+Recomendación:
+
+La más práctica es agregar un botón de cierre de sesión visible en la barra de navegación o en un menú desplegable dentro de la aplicación. Esto permitiría a los usuarios cerrar su sesión en cualquier momento sin complicaciones, garantizando que tengan control sobre su acceso y puedan cambiar de usuario o salir cuando lo deseen.
+
+PROBLEMA #2: No se ha integrado una confirmación de datos al crear a los pacientes.
+Severidad: 3
+Heurística violada: Usability: Consistencia y estándares
+
+Problema:
+Al momento de crear un perfil de paciente, no se cuenta con una opción de confirmación de datos ingresados. Esto significa que el usuario no tiene la posibilidad de verificar y validar la información que acaba de introducir, lo cual incrementa el riesgo de errores y compromete la precisión de los datos. En caso de equivocarse, deberá corregir la información posteriormente, aumentando el esfuerzo y afectando la confiabilidad del sistema.
+![Problema2](./heuristica/2.png)
+
+Recomendación:
+La más práctica es que, al finalizar el registro de un paciente, se muestre una pantalla de confirmación con todos los datos ingresados. Esta ventana debería permitir al usuario revisar, confirmar o corregir la información antes de guardarla definitivamente. Así se reduce el riesgo de errores en los datos del paciente y se asegura la precisión de la información ingresada.
+
+PROBLEMA #3: No se ha integrado una confirmación de datos al crear a los doctores.
+Severidad: 2
+Heurística violada: Usability: Consistencia y estándares
+
+Problema:
+En el proceso de creación de perfiles de doctores, no se presenta una opción para confirmar los datos ingresados. Esto implica que el usuario debe introducir la información sin un segundo paso para verificarla, lo que puede llevar a errores no detectados en la información del personal médico. Si surge un error, el proceso de corrección incrementa el esfuerzo para el usuario, y afecta la consistencia de los datos en el sistema.
+![Problema3](./heuristica/3.png)
+
+Recomendación:
+La más práctica es implementar una pantalla de confirmación al final del registro de un doctor, mostrando todos los datos ingresados para su revisión. Esto permitiría al usuario validar y corregir cualquier información antes de guardar el registro de forma definitiva, evitando errores y manteniendo la consistencia en el sistema.
+
+PROBLEMA #4: No se ha integrado una confirmación de datos al technical support.
+Severidad: 1
+Heurística violada: Usabilidad - Libertad y control del usuario
+
+Problema:
+Al ingresar información en el módulo de soporte técnico, no se ofrece una opción para confirmar los datos ingresados. Esto implica que, si el usuario comete un error, deberá corregir la información más adelante. Aunque el impacto es menor que en otros módulos, la falta de esta funcionalidad incrementa el esfuerzo necesario para asegurar la exactitud de la información, afectando la experiencia de usuario de forma superficial.
+![Problema4](./heuristica/4.png)
+
+Recomendación:
+La más práctica es incluir una ventana emergente de confirmación al finalizar el ingreso de datos en el módulo de soporte técnico. De esta manera, el usuario podría revisar la información ingresada y corregir cualquier error antes de enviarla, minimizando problemas en la comunicación de soporte y mejorando la precisión sin afectar la experiencia de usuario.
+
+
 
 # Conclusiones
 ### Capítulo 1: Introducción
